@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-03-11 19:54:05" Modified_Date="2021-05-21 19:58:50" Creator="Anton Sundqvist" Comments="" ID="dac42c668555672a7a60f83d69ef66fb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-05-22 19:11:32" Creator="Anton Sundqvist" Comments="" ID="6fef103cdbe79d4dd07456958e4fd6e9">
   <Library_General_Settings>
     <Package_File_Name>Asteme_lib_Triarc_Framework</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
@@ -71,7 +71,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\Triarc</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -93,6 +93,12 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Test Suite</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;vi.lib&gt;\Asteme\Triarc Test Suite</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -102,14 +108,21 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>project/Triarc</Path>
+        <Path>Tools Menu/Triarc/Add Framework Library to Project.vi</Path>
         <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Compile_Exclusions>
+      <Password_Overrides>
         <Path>.</Path>
-      </Compile_Exclusions>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Namespace_Overrides>
+        <Path>.</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -196,7 +209,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Sub Palette</Type>
@@ -282,7 +295,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Asynchronous Action</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A768DF04C7A990A1AA5C80F88BF6A4CD</GUID>
+      <GUID>5C2C9B56F0D5F419F862D019471A78AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -301,7 +314,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>Application</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Application</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -345,7 +358,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Application\Public\Get All Processes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>393B5AA57CAA54FED9D709B6EB80B109</GUID>
+      <GUID>CA06404FDA75AEF9297E33EF37355BDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -364,7 +377,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>Asynchronous Action</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Asynchronous Action</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -380,7 +393,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Asynchronous Action\Protected\Launch Asynchronous Action.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>894F186257AFA78CDE3755B800373E05</GUID>
+      <GUID>A2DF6753D3F40769656151250C923D2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -399,7 +412,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>Configuration File</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Configuration File</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -653,7 +666,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Error Log Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48A50DB7F02CC4B4EB25906CDD355654</GUID>
+      <GUID>C34F23007DB4A5D8EFF42AB9333DC926</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -672,7 +685,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>Helper Loop</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Helper Loop</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -702,7 +715,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Stop Helper Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8008C50DEDEB12F3648B0B4DE532091</GUID>
+      <GUID>DAB2FDF7B26D4425A357BE36273E32D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -721,7 +734,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>Process</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Process</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -734,7 +747,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Process\Clear.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Application\Clear.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -776,7 +789,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Process\Init.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Base\Init.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -835,7 +848,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Lifecycle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BC97FB63A180B27F8ADA700E6A6162C</GUID>
+      <GUID>9230245A5D3739BAFAA85A3BE28536A1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -854,7 +867,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>View</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\View</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -912,7 +925,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\View\Public\Get View VI Reference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AD1C3CE4587F4C61D288FE42C329F90</GUID>
+      <GUID>89BC3FB98D8204C7356B6303CC596BD5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -931,7 +944,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>Process\Public\Broadcasting</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Process\Public\Broadcasting</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -944,7 +957,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Process\Public\Broadcasting\Get Broadcast Event.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Application\Protected\Get Broadcast Event.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -958,7 +971,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Process\Public\Broadcasting\Register for Broadcast Events.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Application\Public\Broadcasting\Register for Broadcast Events.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -986,10 +999,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\Broadcasting\Broadcast Message.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Broadcast Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CFB0BF321182945583E198AA592E08C</GUID>
+      <GUID>D4A4055C7AE38FD8E78813B55E1A973F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1052,7 +1065,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\Messaging\Request Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0902BAC9061FAF8F63F0FA4D3D3CFBBF</GUID>
+      <GUID>CB9323487031828C265AA2DA5A2E2552</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1115,7 +1128,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\SubVIs\Get Access Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C863EF39FB2349DDF31BA7BB2F291E3</GUID>
+      <GUID>73FC3D012BFBB3CF6C12F2FEE64F4D17</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -11,7 +11,16 @@
 # Executables
 *.exe
 
+#builds
+builds/*
+
+#directories
+Logs/*
+
 # Metadata
 *.aliases
 *.lvlps
 .cache/
+
+# Logs
+*.log
