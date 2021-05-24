@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-05-22 22:47:52" Creator="Anton Sundqvist" Comments="" ID="c52b8514eb41264f3d463385ad9d4dde">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-05-24 20:55:29" Creator="Anton Sundqvist" Comments="" ID="f70b5efadc64e4c483f5170f664423d3">
   <Library_General_Settings>
     <Package_File_Name>Asteme_lib_Triarc_Framework</Package_File_Name>
-    <Library_Version>1.0.0.12</Library_Version>
+    <Library_Version>1.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
@@ -295,7 +295,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Asynchronous Action</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9742CE2DA185B82E61646079166B8ED</GUID>
+      <GUID>690E40DAE5CAB53FCA7CF192574907BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -358,7 +358,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Application\Public\Get All Processes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BDA5AA5110F9F5AB26806BB49146140</GUID>
+      <GUID>BA10A133EB52D707D8A54DD215A3D28F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -393,7 +393,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Asynchronous Action\Protected\Launch Asynchronous Action.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB8D799525D4230111E78A965B90F1A4</GUID>
+      <GUID>12A8D10567A028EA815A0877E452ABB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -666,7 +666,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Error Log Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>366045BDC5D55E8393C5B62794A4057D</GUID>
+      <GUID>8F3F4652565D6456460090D698F1951B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -715,7 +715,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Stop Helper Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C842E7CDC8DFCA9A388AE9D7D4A2844D</GUID>
+      <GUID>8AC45C4ADB60E94AA3E3D78D50801C96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -848,7 +848,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Lifecycle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>76B409DF0375A6C6BD345EB10273470B</GUID>
+      <GUID>AE6A236B27842347959B9832C76E62A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -925,7 +925,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\View\Public\Get View VI Reference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2ABCAA0D8FF4627A1D762E124D4042DA</GUID>
+      <GUID>DF00C59FBBA47A9C12F28B22F39325CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1002,7 +1002,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Broadcast Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2EDC0630DA3B840B39465FCBDCD137E5</GUID>
+      <GUID>91A52E70BE163A6F0F239C9A6D56372C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1065,7 +1065,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\Messaging\Request Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FBE15658C02FC106D7A8C96D18D84ED4</GUID>
+      <GUID>EFB665DC3DC59308BBAF19DE01AC8E54</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1128,7 +1128,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\SubVIs\Get Access Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DFC3D01B3B6EE9ACF383695ED77F1465</GUID>
+      <GUID>5514A81C6C3505F549C73D35173C1977</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
