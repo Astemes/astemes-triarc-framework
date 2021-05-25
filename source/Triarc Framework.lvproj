@@ -30,10 +30,10 @@
 				<Item Name="Mock Process.lvclass" Type="LVClass" URL="../Framework Test/Mock Process/Mock Process.lvclass"/>
 				<Item Name="Mock Error Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Error Handler/Mock Error Handler.lvclass"/>
 			</Item>
+			<Item Name="Base Class Test.lvclass" Type="LVClass" URL="../Framework Test/Base Class Test/Base Class Test.lvclass"/>
+			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test/Process Test/Process Test.lvclass"/>
 			<Item Name="View Test.lvclass" Type="LVClass" URL="../Framework Test/View Test/View Test.lvclass"/>
 			<Item Name="Application Test.lvclass" Type="LVClass" URL="../Framework Test/Application Test/Application Test.lvclass"/>
-			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test/Process Test/Process Test.lvclass"/>
-			<Item Name="Base Class Test.lvclass" Type="LVClass" URL="../Framework Test/Base Class Test/Base Class Test.lvclass"/>
 			<Item Name="Helper Loop Test.lvclass" Type="LVClass" URL="../Framework Test/Helper Loop Test/Helper Loop Test.lvclass"/>
 			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
 			<Item Name="Framework Test Support.lvlib" Type="Library" URL="../Framework Test/Support/Framework Test Support.lvlib"/>
