@@ -23,7 +23,7 @@
 			<Item Name="Configuration File.lvclass" Type="LVClass" URL="../Framework/Configuration File/Configuration File.lvclass"/>
 			<Item Name="Error Handler Interface.lvclass" Type="LVClass" URL="../Framework/Error Handler Interface/Error Handler Interface.lvclass"/>
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Framework/Helper Loop/Helper Loop.lvclass"/>
-			<Item Name="Asynchronous Action.lvclass" Type="LVClass" URL="../Framework/Asynchronous Action/Asynchronous Action.lvclass"/>
+			<Item Name="Async Action.lvclass" Type="LVClass" URL="../Framework/Asynchronous Action/Async Action.lvclass"/>
 		</Item>
 		<Item Name="Framework Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
