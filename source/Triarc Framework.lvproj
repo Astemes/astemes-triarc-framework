@@ -49,6 +49,14 @@
 					</Item>
 				</Item>
 			</Item>
+			<Item Name="Class Generation" Type="Folder">
+				<Item Name="Process" Type="Folder">
+					<Item Name="Process Generator.lvclass" Type="LVClass" URL="../IDE Integration/Class Generation/Process Generator/Process Generator.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Method Generation" Type="Folder">
+				<Item Name="Getter Generator.lvclass" Type="LVClass" URL="../IDE Integration/Method Generation/Getter Generator/Getter Generator.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -220,6 +228,13 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
