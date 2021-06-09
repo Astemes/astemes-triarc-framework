@@ -50,10 +50,9 @@
 				</Item>
 			</Item>
 			<Item Name="Class Generation" Type="Folder">
-				<Item Name="Process" Type="Folder">
-					<Item Name="Process Generator.lvclass" Type="LVClass" URL="../IDE Integration/Class Generation/Process Generator/Process Generator.lvclass"/>
-				</Item>
-				<Item Name="New Class Dialog.lvclass" Type="LVClass" URL="../New Class Dialog/New Class Dialog.lvclass"/>
+				<Item Name="New Class Dialog.lvclass" Type="LVClass" URL="../IDE Integration/New Class Dialog/New Class Dialog.lvclass"/>
+				<Item Name="Tag Tree Helper.lvclass" Type="LVClass" URL="../IDE Integration/Helpers/Tag Tree Helper/Tag Tree Helper.lvclass"/>
+				<Item Name="Process Generator.lvclass" Type="LVClass" URL="../IDE Integration/Class Generation/Process Generator/Process Generator.lvclass"/>
 			</Item>
 			<Item Name="Method Generation" Type="Folder">
 				<Item Name="Getter Generator.lvclass" Type="LVClass" URL="../IDE Integration/Method Generation/Getter Generator/Getter Generator.lvclass"/>
@@ -236,6 +235,15 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
