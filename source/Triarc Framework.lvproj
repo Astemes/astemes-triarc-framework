@@ -53,6 +53,7 @@
 				<Item Name="Process" Type="Folder">
 					<Item Name="Process Generator.lvclass" Type="LVClass" URL="../IDE Integration/Class Generation/Process Generator/Process Generator.lvclass"/>
 				</Item>
+				<Item Name="New Class Dialog.lvclass" Type="LVClass" URL="../New Class Dialog/New Class Dialog.lvclass"/>
 			</Item>
 			<Item Name="Method Generation" Type="Folder">
 				<Item Name="Getter Generator.lvclass" Type="LVClass" URL="../IDE Integration/Method Generation/Getter Generator/Getter Generator.lvclass"/>
