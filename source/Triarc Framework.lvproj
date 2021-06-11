@@ -273,7 +273,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions</Property>
@@ -311,10 +311,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib/New Class Dialog.lvclass</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation_.lvlib/New Class Dialog.lvclass</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib/Process Generator.lvclass</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation_.lvlib/Process Generator.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
@@ -353,7 +353,7 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">6</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">12</Property>
