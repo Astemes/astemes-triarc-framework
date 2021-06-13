@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-10 21:32:12" Modified_Date="2021-06-12 21:50:01" Creator="anton" Comments="" ID="b811c40062da8b8898620caa1d58cdf5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-10 21:32:12" Modified_Date="2021-06-13 18:27:43" Creator="anton" Comments="" ID="e5ca15f54447f7f3c9be986ba7b54924">
   <Library_General_Settings>
     <Package_File_Name>Asteme_lib_Triarc_Framework_IDE_Integration</Package_File_Name>
-    <Library_Version>1.0.0.16</Library_Version>
+    <Library_Version>1.0.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc IDE Integration</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
