@@ -54,6 +54,9 @@
 			</Item>
 			<Item Name="Process Generation" Type="Folder">
 				<Item Name="Process Generation.lvlib" Type="Library" URL="../IDE Integration/Process Generation/Process Generation.lvlib"/>
+				<Item Name="Handle Messages_Template.vi" Type="VI" URL="../IDE Integration/Process Generation/Process Generator/Template VIs/Handle Messages_Template.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="Method Generation" Type="Folder">
 				<Item Name="Getter Generator.lvclass" Type="LVClass" URL="../IDE Integration/Method Generation/Getter Generator/Getter Generator.lvclass"/>
@@ -360,9 +363,9 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Handle Messages.vi" Type="VI" URL="../IDE Integration/Process Generation/Process Generator/Template VIs/Handle Messages.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
+			<Item Name="My Process 0ads.lvclass" Type="LVClass" URL="../My Process 0/My Process 0ads.lvclass"/>
+			<Item Name="My Process 0123.lvclass" Type="LVClass" URL="../../../../../Desktop/My Process 0asd/My Process 0123.lvclass"/>
+			<Item Name="My Process 0qwc.lvclass" Type="LVClass" URL="../../../../../Desktop/My Process 0dqwe/My Process 0qwc.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
