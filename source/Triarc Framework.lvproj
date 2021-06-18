@@ -53,15 +53,21 @@
 				</Item>
 			</Item>
 			<Item Name="Process Generation" Type="Folder">
-				<Item Name="Process Generation.lvlib" Type="Library" URL="../IDE Integration/Process Generation/Process Generation.lvlib"/>
 				<Item Name="Handle Messages_Template.vit" Type="VI" URL="../IDE Integration/Process Generation/Process Generator/Template VIs/Handle Messages_Template.vit">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="Process Generation.lvlib" Type="Library" URL="../IDE Integration/Process Generation/Process Generation.lvlib"/>
 			</Item>
 			<Item Name="Method Generation" Type="Folder">
-				<Item Name="Getter Generator.lvclass" Type="LVClass" URL="../IDE Integration/Method Generation/Getter Generator/Getter Generator.lvclass"/>
+				<Item Name="Method Generation.lvlib" Type="Library" URL="../IDE Integration/Method Generation/Method Generation.lvlib"/>
+				<Item Name="Getter_Template.vit" Type="VI" URL="../IDE Integration/Method Generation/Getter Generator/Getter_Template.vit">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 		</Item>
+		<Item Name="My Process 0.lvclass" Type="LVClass" URL="../../../../../Desktop/Class 2/1231321321/My Process 0.lvclass"/>
+		<Item Name="My Process 1123.lvclass" Type="LVClass" URL="../../../../../Desktop/My Process 1123.lvclass"/>
+		<Item Name="My Process 1123 Test.lvclass" Type="LVClass" URL="../../../../../My Process 1123 Test/My Process 1123 Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi">
@@ -356,6 +362,9 @@
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -461,7 +470,7 @@
 				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">6</Property>
 				<Property Name="Source[9].itemID" Type="Ref"></Property>
