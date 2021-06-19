@@ -1398,8 +1398,11 @@
 				<Property Name="Destination[8].destName" Type="Str">Trirac IDE Integration Tools Menu</Property>
 				<Property Name="Destination[8].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Tools Menu/Triarc</Property>
 				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">9</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4404290E-E090-418F-98FA-7C7A152ED694}</Property>
+				<Property Name="Destination[9].destName" Type="Str">Project Provider</Property>
+				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Project Provider/resource/Framework/Providers</Property>
+				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">10</Property>
+				<Property Name="Source[0].itemID" Type="Str">{745947F1-13BE-4E77-B2DB-05E8D5804B92}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1465,6 +1468,20 @@
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[24].itemID" Type="Ref">/My Computer/IDE Integration/lv_icon.lvlibp</Property>
 				<Property Name="Source[24].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib</Property>
+				<Property Name="Source[25].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[25].type" Type="Str">Library</Property>
+				<Property Name="Source[26].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[26].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib/GProviders</Property>
+				<Property Name="Source[26].type" Type="Str">Container</Property>
+				<Property Name="Source[27].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[27].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">9</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib/Triarc</Property>
+				<Property Name="Source[27].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF Test Suite to Project.vi</Property>
 				<Property Name="Source[3].newName" Type="Str">Add Test Suite to Project.vi</Property>
@@ -1497,7 +1514,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">25</Property>
+				<Property Name="SourceCount" Type="Int">28</Property>
 			</Item>
 		</Item>
 	</Item>
