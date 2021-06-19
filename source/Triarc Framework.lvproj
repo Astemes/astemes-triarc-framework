@@ -65,9 +65,8 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="My Process 0.lvclass" Type="LVClass" URL="../../../../../Desktop/Class 2/1231321321/My Process 0.lvclass"/>
-		<Item Name="My Process 1123.lvclass" Type="LVClass" URL="../../../../../Desktop/My Process 1123.lvclass"/>
-		<Item Name="My Process 1123 Test.lvclass" Type="LVClass" URL="../../../../../My Process 1123 Test/My Process 1123 Test.lvclass"/>
+		<Item Name="My Process 0.lvclass" Type="LVClass" URL="../../../../../Desktop/test/My Process 0.lvclass"/>
+		<Item Name="My Process 0 Test.lvclass" Type="LVClass" URL="../../../../../Desktop/My Process 0 Test/My Process 0 Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi">
