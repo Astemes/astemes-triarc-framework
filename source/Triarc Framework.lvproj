@@ -1371,7 +1371,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions</Property>
@@ -1399,10 +1399,10 @@
 				<Property Name="Destination[8].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Tools Menu/Triarc</Property>
 				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[9].destName" Type="Str">Project Provider</Property>
-				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Project Provider/resource/Framework/Providers</Property>
+				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{745947F1-13BE-4E77-B2DB-05E8D5804B92}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A1FE24DF-3933-4583-8398-74F88FD3457B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1478,9 +1478,12 @@
 				<Property Name="Source[26].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib/GProviders</Property>
 				<Property Name="Source[26].type" Type="Str">Container</Property>
 				<Property Name="Source[27].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[27].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[27].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib/Triarc</Property>
+				<Property Name="Source[27].newName" Type="Str">Triarc_</Property>
+				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF Test Suite to Project.vi</Property>

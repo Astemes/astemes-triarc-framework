@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-10 21:32:12" Modified_Date="2021-06-15 20:21:50" Creator="anton" Comments="" ID="d43582cd26b4892ef59883d1ffc889cc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-10 21:32:12" Modified_Date="2021-06-19 23:39:40" Creator="anton" Comments="" ID="3af6110a13b9b6e4e02d6573390c17a7">
   <Library_General_Settings>
     <Package_File_Name>Asteme_lib_Triarc_Framework_IDE_Integration</Package_File_Name>
-    <Library_Version>1.0.0.21</Library_Version>
+    <Library_Version>1.0.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc IDE Integration</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
@@ -108,6 +108,18 @@
       <Destination_Overrides>
         <Path>Tools Menu/Triarc</Path>
         <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Project Provider/resource/Framework/Providers/GProviders</Path>
+        <Destination>10</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Project Provider/resource/Framework/Providers/Triarc</Path>
+        <Destination>10</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
