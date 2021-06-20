@@ -60,6 +60,9 @@
 			</Item>
 			<Item Name="Method Generation" Type="Folder">
 				<Item Name="Method Generation.lvlib" Type="Library" URL="../IDE Integration/Method Generation/Method Generation.lvlib"/>
+				<Item Name="Setter_Template.vit" Type="VI" URL="../IDE Integration/Method Generation/Setter Generator/Setter_Template.vit">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 				<Item Name="Getter_Template.vit" Type="VI" URL="../IDE Integration/Method Generation/Getter Generator/Getter_Template.vit">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>

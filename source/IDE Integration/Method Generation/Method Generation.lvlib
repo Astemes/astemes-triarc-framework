@@ -7,4 +7,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="New Getter Dialog.lvclass" Type="LVClass" URL="../New Getter Dialog/New Getter Dialog.lvclass"/>
+	<Item Name="Setter Generator.lvclass" Type="LVClass" URL="../Setter Generator/Setter Generator.lvclass"/>
 </Library>
