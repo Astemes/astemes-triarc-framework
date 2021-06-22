@@ -1408,7 +1408,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A1FE24DF-3933-4583-8398-74F88FD3457B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7F09E5AF-D2BF-4CF3-B506-2CDD1DCC9E71}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1491,6 +1491,9 @@
 				<Property Name="Source[27].newName" Type="Str">Triarc_</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Container</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">7</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation/API_VI_Template.vit</Property>
+				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF Test Suite to Project.vi</Property>
 				<Property Name="Source[3].newName" Type="Str">Add Test Suite to Project.vi</Property>
@@ -1523,7 +1526,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">28</Property>
+				<Property Name="SourceCount" Type="Int">29</Property>
 			</Item>
 		</Item>
 	</Item>
