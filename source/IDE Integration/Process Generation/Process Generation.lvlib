@@ -4,11 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="New Class Dialog.lvclass" Type="LVClass" URL="../New Class Dialog/New Class Dialog.lvclass"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Support.lvlib" Type="Library" URL="../Support/Support.lvlib">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Process Generator.lvclass" Type="LVClass" URL="../Process Generator/Process Generator.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Tag Tree Helper.lvclass" Type="LVClass" URL="../Tag Tree Helper/Tag Tree Helper.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="New Class Dialog.lvclass" Type="LVClass" URL="../New Class Dialog/New Class Dialog.lvclass"/>
 </Library>

@@ -53,22 +53,10 @@
 				</Item>
 			</Item>
 			<Item Name="Process Generation" Type="Folder">
-				<Item Name="Handle Messages_Template.vit" Type="VI" URL="../IDE Integration/Process Generation/Process Generator/Template VIs/Handle Messages_Template.vit">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Process Generation.lvlib" Type="Library" URL="../IDE Integration/Process Generation/Process Generation.lvlib"/>
 			</Item>
 			<Item Name="Method Generation" Type="Folder">
 				<Item Name="Method Generation.lvlib" Type="Library" URL="../IDE Integration/Method Generation/Method Generation.lvlib"/>
-				<Item Name="API_VI_Template.vit" Type="VI" URL="../IDE Integration/Method Generation/Setter Generator/API_VI_Template.vit">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Getter_Template.vit" Type="VI" URL="../IDE Integration/Method Generation/Getter Generator/Getter_Template.vit">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Setter_Template.vit" Type="VI" URL="../IDE Integration/Method Generation/Setter Generator/Setter_Template.vit">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 			</Item>
 			<Item Name="Triarc Project Provider.lvlib" Type="Library" URL="../IDE Integration/Project Provider/Triarc Project Provider.lvlib"/>
 			<Item Name="lv_icon.lvlibp" Type="LVLibp" URL="/&lt;resource&gt;/plugins/lv_icon.lvlibp">
@@ -1422,7 +1410,7 @@
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation/Getter_Template.vit</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation/Method Generation.lvlib/Support.lvlib/Getter_Template.vit</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib/New Class Dialog.lvclass</Property>
@@ -1492,7 +1480,7 @@
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Container</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation/API_VI_Template.vit</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation/Method Generation.lvlib/Support.lvlib/API_VI_Template.vit</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF Test Suite to Project.vi</Property>
@@ -1520,7 +1508,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">7</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Handle Messages_Template.vit</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib/Support.lvlib/Handle Messages_Template.vit</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
