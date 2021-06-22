@@ -12,4 +12,5 @@
 	</Item>
 	<Item Name="New Getter Dialog.lvclass" Type="LVClass" URL="../New Getter Dialog/New Getter Dialog.lvclass"/>
 	<Item Name="New Setter Dialog.lvclass" Type="LVClass" URL="../New Setter Dialog/New Setter Dialog.lvclass"/>
+	<Item Name="API VI Generator.lvclass" Type="LVClass" URL="../API VI Generator/API VI Generator.lvclass"/>
 </Library>
