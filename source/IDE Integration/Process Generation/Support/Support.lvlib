@@ -7,4 +7,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Handle Messages_Template.vit" Type="VI" URL="../Handle Messages_Template.vit"/>
+	<Item Name="Process API Tester_Template.vit" Type="VI" URL="../Process API Tester_Template.vit"/>
 </Library>
