@@ -20,6 +20,7 @@
 			<Item Name="Process.lvclass" Type="LVClass" URL="../Framework/Process/Process.lvclass"/>
 			<Item Name="Application.lvclass" Type="LVClass" URL="../Framework/Application/Application.lvclass"/>
 			<Item Name="View.lvclass" Type="LVClass" URL="../Framework/View/View.lvclass"/>
+			<Item Name="Configuration.lvclass" Type="LVClass" URL="../Framework/Configuration/Configuration.lvclass"/>
 			<Item Name="Configuration File.lvclass" Type="LVClass" URL="../Framework/Configuration File/Configuration File.lvclass"/>
 			<Item Name="Error Handler Interface.lvclass" Type="LVClass" URL="../Framework/Error Handler Interface/Error Handler Interface.lvclass"/>
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Framework/Helper Loop/Helper Loop.lvclass"/>
@@ -1331,7 +1332,6 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Read Test Case Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Read Test Case Name.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1345,8 +1345,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Lifecycle State.vi" Type="VI" URL="../Framework/Process/Public/Get Lifecycle State.vi"/>
-			<Item Name="Get Access Mode.vi" Type="VI" URL="../Framework/Process/Protected/SubVIs/Get Access Mode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
