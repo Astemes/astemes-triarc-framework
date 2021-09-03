@@ -25,6 +25,7 @@
 			<Item Name="Error Handler Interface.lvclass" Type="LVClass" URL="../Framework/Error Handler Interface/Error Handler Interface.lvclass"/>
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Framework/Helper Loop/Helper Loop.lvclass"/>
 			<Item Name="Async Action.lvclass" Type="LVClass" URL="../Framework/Asynchronous Action/Async Action.lvclass"/>
+			<Item Name="Logging.lvclass" Type="LVClass" URL="../Framework/Logging/Logging.lvclass"/>
 		</Item>
 		<Item Name="Framework Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
