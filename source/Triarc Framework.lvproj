@@ -1400,13 +1400,19 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FADAC67E-71C9-490F-9870-E5C5E75013F8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F320F4BC-CF07-4E95-B1D6-7FBD7DA626E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Framework</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">7</Property>
@@ -1475,10 +1481,16 @@
 				<Property Name="Source[26].type" Type="Str">Container</Property>
 				<Property Name="Source[27].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[27].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[27].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib/Triarc</Property>
 				<Property Name="Source[27].newName" Type="Str">Triarc_</Property>
+				<Property Name="Source[27].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[27].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[27].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[27].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[27].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Container</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">7</Property>
@@ -1537,10 +1549,28 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF to Project.vi</Property>
 				<Property Name="Source[4].newName" Type="Str">Add Framework Library to Project.vi</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[40].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[40].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/IDE Integration/Menu</Property>
+				<Property Name="Source[40].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[40].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[40].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[40].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[40].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[40].type" Type="Str">Container</Property>
+				<Property Name="Source[41].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[41].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu</Property>
+				<Property Name="Source[41].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/IDE Integration</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">8</Property>
@@ -1561,7 +1591,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">40</Property>
+				<Property Name="SourceCount" Type="Int">42</Property>
 			</Item>
 		</Item>
 	</Item>
