@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="CCSymbols" Type="Str">DEBUG,TRUE;</Property>
+	<Property Name="CCSymbols" Type="Str">DEBUG,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -20,15 +20,18 @@
 			<Item Name="Process.lvclass" Type="LVClass" URL="../Framework/Process/Process.lvclass"/>
 			<Item Name="Application.lvclass" Type="LVClass" URL="../Framework/Application/Application.lvclass"/>
 			<Item Name="View.lvclass" Type="LVClass" URL="../Framework/View/View.lvclass"/>
+			<Item Name="Configuration.lvclass" Type="LVClass" URL="../Framework/Configuration/Configuration.lvclass"/>
 			<Item Name="Configuration File.lvclass" Type="LVClass" URL="../Framework/Configuration File/Configuration File.lvclass"/>
 			<Item Name="Error Handler Interface.lvclass" Type="LVClass" URL="../Framework/Error Handler Interface/Error Handler Interface.lvclass"/>
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Framework/Helper Loop/Helper Loop.lvclass"/>
 			<Item Name="Async Action.lvclass" Type="LVClass" URL="../Framework/Asynchronous Action/Async Action.lvclass"/>
+			<Item Name="Logging.lvclass" Type="LVClass" URL="../Framework/Logging/Logging.lvclass"/>
 		</Item>
 		<Item Name="Framework Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
 				<Item Name="Mock Process.lvclass" Type="LVClass" URL="../Framework Test/Mock Process/Mock Process.lvclass"/>
 				<Item Name="Mock Error Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Error Handler/Mock Error Handler.lvclass"/>
+				<Item Name="Mock Log Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Log Handler/Mock Log Handler.lvclass"/>
 			</Item>
 			<Item Name="Base Test.lvclass" Type="LVClass" URL="../Framework Test/Base Class Test/Base Test.lvclass"/>
 			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test/Process Test/Process Test.lvclass"/>
@@ -37,6 +40,7 @@
 			<Item Name="Helper Loop Test.lvclass" Type="LVClass" URL="../Framework Test/Helper Loop Test/Helper Loop Test.lvclass"/>
 			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
 			<Item Name="Framework Test Support.lvlib" Type="Library" URL="../Framework Test/Support/Framework Test Support.lvlib"/>
+			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../Framework Test/Logger Test/Logger Test.lvclass"/>
 		</Item>
 		<Item Name="IDE Integration" Type="Folder">
 			<Item Name="Menu" Type="Folder">
@@ -1396,13 +1400,19 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F09E5AF-D2BF-4CF3-B506-2CDD1DCC9E71}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F320F4BC-CF07-4E95-B1D6-7FBD7DA626E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Framework</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">7</Property>
@@ -1441,11 +1451,9 @@
 				<Property Name="Source[19].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib/Process Generator.lvclass/Generate Test Case.vi</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Framework Tests</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib/Process Generator.lvclass/Write Directory.vi</Property>
@@ -1473,27 +1481,96 @@
 				<Property Name="Source[26].type" Type="Str">Container</Property>
 				<Property Name="Source[27].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[27].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[27].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">9</Property>
 				<Property Name="Source[27].itemID" Type="Ref">/My Computer/IDE Integration/Triarc Project Provider.lvlib/Triarc</Property>
 				<Property Name="Source[27].newName" Type="Str">Triarc_</Property>
+				<Property Name="Source[27].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[27].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[27].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[27].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[27].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Container</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">7</Property>
 				<Property Name="Source[28].itemID" Type="Ref">/My Computer/IDE Integration/Method Generation/Method Generation.lvlib/Support.lvlib/API_VI_Template.vit</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Framework Tests/Base Test.lvclass</Property>
+				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[29].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF Test Suite to Project.vi</Property>
 				<Property Name="Source[3].newName" Type="Str">Add Test Suite to Project.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Framework Tests/Process Test.lvclass</Property>
+				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[30].type" Type="Str">Library</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Framework Tests/View Test.lvclass</Property>
+				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[31].type" Type="Str">Library</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Framework Tests/Application Test.lvclass</Property>
+				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[32].type" Type="Str">Library</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Framework Tests/Helper Loop Test.lvclass</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].type" Type="Str">Library</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Framework Tests/Error Handler Interface Test.lvclass</Property>
+				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].type" Type="Str">Library</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Framework Tests/Framework Test Support.lvlib</Property>
+				<Property Name="Source[35].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[35].type" Type="Str">Library</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Framework Tests/Logger Test.lvclass</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[36].type" Type="Str">Library</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Framework Tests/Mock Classes/Mock Process.lvclass</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].type" Type="Str">Library</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Framework Tests/Mock Classes/Mock Error Handler.lvclass</Property>
+				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[38].type" Type="Str">Library</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Framework Tests/Mock Classes/Mock Log Handler.lvclass</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[39].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF to Project.vi</Property>
 				<Property Name="Source[4].newName" Type="Str">Add Framework Library to Project.vi</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[40].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[40].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/IDE Integration/Menu</Property>
+				<Property Name="Source[40].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[40].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[40].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[40].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[40].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[40].type" Type="Str">Container</Property>
+				<Property Name="Source[41].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[41].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu</Property>
+				<Property Name="Source[41].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/IDE Integration</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">8</Property>
@@ -1514,7 +1591,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">29</Property>
+				<Property Name="SourceCount" Type="Int">42</Property>
 			</Item>
 		</Item>
 	</Item>
