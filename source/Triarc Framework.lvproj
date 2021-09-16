@@ -1348,6 +1348,9 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Test Base Function.vi" Type="VI" URL="../Framework Test/Base Class Test/Test Base Function.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
@@ -1400,7 +1403,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F320F4BC-CF07-4E95-B1D6-7FBD7DA626E8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C212698E-CB11-4D7A-B0FD-1ADFA7B34CFE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
