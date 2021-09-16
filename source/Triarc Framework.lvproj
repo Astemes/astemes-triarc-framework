@@ -1348,9 +1348,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Test Base Function.vi" Type="VI" URL="../Framework Test/Base Class Test/Test Base Function.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
