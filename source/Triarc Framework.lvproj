@@ -41,6 +41,7 @@
 			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
 			<Item Name="Framework Test Support.lvlib" Type="Library" URL="../Framework Test/Support/Framework Test Support.lvlib"/>
 			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../Framework Test/Logger Test/Logger Test.lvclass"/>
+			<Item Name="Mock Process Test.lvclass" Type="LVClass" URL="../Framework Test/Mock Process Test/Mock Process Test.lvclass"/>
 		</Item>
 		<Item Name="IDE Integration" Type="Folder">
 			<Item Name="Menu" Type="Folder">
@@ -1400,7 +1401,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C212698E-CB11-4D7A-B0FD-1ADFA7B34CFE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A2E1DB2D-2650-4BBB-8EEA-3EE4FC8629E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1562,6 +1563,10 @@
 				<Property Name="Source[41].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[41].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu</Property>
 				<Property Name="Source[41].type" Type="Str">Container</Property>
+				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Framework Tests/Mock Process Test.lvclass</Property>
+				<Property Name="Source[42].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[42].type" Type="Str">Library</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
@@ -1591,7 +1596,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">42</Property>
+				<Property Name="SourceCount" Type="Int">43</Property>
 			</Item>
 		</Item>
 	</Item>
