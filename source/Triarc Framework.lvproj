@@ -1061,9 +1061,6 @@
 				</Item>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -1334,6 +1331,9 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
