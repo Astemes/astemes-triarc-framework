@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-09-20 10:24:59" Creator="Anton Sundqvist" Comments="" ID="d35a309689a7b6d593addd34a0d37523">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-09-20 18:26:42" Creator="Anton Sundqvist" Comments="" ID="60a1c3f326dd4e1d1f14af6444b588b1">
   <Library_General_Settings>
     <Package_File_Name>Asteme_lib_Triarc_Framework</Package_File_Name>
-    <Library_Version>1.0.0.67</Library_Version>
+    <Library_Version>1.0.0.68</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
@@ -310,7 +310,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Logging</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8A059D63CC93FA3DC5C6FDF70B4AFD9</GUID>
+      <GUID>F2D3B04C0DF3B157A2373D4EEFF69668</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -373,7 +373,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Application\Public\Get All Processes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15E72C060A9771A22ED3AE2B2E0B9AD4</GUID>
+      <GUID>9409FA131EB623AD6B839E2002A6A02B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -408,7 +408,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Asynchronous Action\Protected\Launch Async Action.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B7C75EE3D8ABF4F7A1930AD5961581E</GUID>
+      <GUID>FA57FD880CA21BC104888A942C852D8D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -681,7 +681,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Error Log Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB848B561E8BED41040A186A17600C66</GUID>
+      <GUID>0BC553290634B49623963DCFAEB49961</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -730,7 +730,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Stop Helper Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBF33D4E9F644B37D000BC611F0702AA</GUID>
+      <GUID>E0B202DD1AFE9E6F520EF03D0800E719</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -849,7 +849,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Lifecycle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CCE6967BC066C5077951A3B1C647A38</GUID>
+      <GUID>0C85287AAF3F0465E1E663AC79DEF05E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -926,7 +926,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\View\Public\Get View VI Reference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F57DA726126B40589785BBA34DDA346</GUID>
+      <GUID>A612B65824C317B679F615139681CBA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1003,7 +1003,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Broadcast Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D34692905EF5FBCB3423CE7614EE0BFA</GUID>
+      <GUID>637F69701F0898C90EB1B7DC73BE2C5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1066,7 +1066,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\Messaging\Request Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>346D299C5C4BEB7C15EB9765CC89CE69</GUID>
+      <GUID>399A7975FEB2CC269A5E9E01BE5E38A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1101,7 +1101,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Public\Lifecycle\Get Lifecycle State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EFC9E3C82AB2E3EA42E1730A42F3AC9D</GUID>
+      <GUID>8218F3A51491E34F55C4D33C2A8D6CDB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1192,7 +1192,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Logging\Log Critical.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D4B906317159791044081C4DC4109A3</GUID>
+      <GUID>4578A29162C96CAE6D5B65DD34324A2E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
