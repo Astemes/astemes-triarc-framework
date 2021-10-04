@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
+	<Property Name="NI.Lib.Description" Type="Str">A View is responsible for managing a user interface module. By handling processing in the process loop of the View, the View user interface stays updated and responsive. Complex user interfaces may be composed from multiple Views.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)O!!!*Q(C=\&gt;7\D2MR&amp;)8B9]/"5X6AK)8&lt;AELQB%ZPYA+5/BKIB&gt;O#9DN3#S&gt;VK!I-K)8R0`3&amp;M0#O,!._"EMO^4A=EJ]YR+QUSGPJF::\:@ZB_?F_@;N;8_@2HOS`@LIV`F&lt;`X$XT`,$\5&lt;^UK`]8@^`.`DN&amp;T_7Z`.PSY?YB`?.H^I87"R(.N+)F,&lt;1ON:D=Z#9XO=F.8O2&amp;8O2&amp;8O2&amp;HO2*HO2*HO2*(O2"(O2"(O2"0CKZS%5O=EBG=&lt;/1G&gt;2-9#[')P.C0-:D0-&lt;$6RG0]2C0]2A0F]BYD-&gt;YD-&gt;Y'#&lt;D-2\D-2\D9;IB];DE?)S([66Y#E`B+4S&amp;BS66?!J!M6AR=4%*$"7&gt;R9@#5XA+$R^6?!J0Y3E]B9&gt;O&amp;:\#5XA+4_&amp;BS.C6'JKVEO.B'C7?R*.Y%E`C97IFHM34?"*0YG%Z*:\%ES#3":0*)3A:F&amp;S1@%E]C9=X*:\%EXA34_+B;^SB($OT;N:+DC@Q"*\!%XA#$V-I]!3?Q".Y!A`4+P!%HM!4?!)03SHQ"*\!%U##26F?Q74"Q/#C)!A]`)X4%O-OV:$%K&amp;)@8P7B6"]W^3&amp;3(Q\V46@@406.5G__?F06G[8?"0705[06'05C[M(LB&lt;LQ?K;&gt;;%@;A&lt;;H4&lt;1&gt;&lt;5P&lt;L%.`]Y78SU8H]VGHUUH(YV'(QU(\`6\4.'GXWWG\X7KTW6Q@!W_IVQ@#&gt;]_FN__7:@L-/_X4FW8Z_0ZP`#`^$Z[.?KG(]\*(8Q%&amp;YM^J!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.7</Property>

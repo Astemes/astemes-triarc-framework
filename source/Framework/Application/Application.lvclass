@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
+	<Property Name="NI.Lib.Description" Type="Str">The Application class is responsible for managing the lifecycle of its owned processes. Processes may be accessed by name from the Application class. Processes in the same application share Appliction context and enables processes to address each other within an Application.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)P!!!*Q(C=\&gt;8.D2."%-8R"_,!V2EAJV!J/!6(A&amp;1J_-I&amp;S3H5D&lt;/FP=(*+4R#=!L?%):`NYM&amp;\=J9),Y/W_-?W[_HOX`O;9WF76Z,L\4=+B^_7([C82LV[_F+_XB&gt;XB_X8ZKO^R_`[.,P7_P4`N@&lt;&lt;`J`M@V'U8.Z,P_WP,OZ3@`YHHWB]3#CGFL5J)&lt;'6)P*47ZSEZP=Z%6?Z%6?Z%6?Z%G?Z%G?Z%G?Z%%?Z%%?Z%%?Z0-A&amp;\H)21\*4'YG-I/;!=T&amp;5'2/RG-]RG-]@*8R')`R')`R=)G-RXC-RXC-BWYS(O-R(O-R(I;;%M_$()`R-,Q+4_%J0)7H]$#F#E]"+#9L"CY'A;'CM@B1?!J0Y?'D#E`B+4S&amp;J`$1L-*4?!J0Y3E]&gt;*GL5F-T$H)]$+0%EXA34_**0!SNR*.Y%E`C34R-J]34?"*%-G%S/!1FH:),EC_**`(QJM34?"*0YEE].-U\F(.FBG9=Z(A#4_!*0)%H]$#%!E`A#4S"*`!QL!*0Y!E]A3@Q-*5#4_!*0!%EG*4J&amp;1Q7&gt;!QO#I,!QWPOFJBXK;9EZC(VZF6P3P6G5W]C^?:1XX4VT64@*08CKR&gt;6P6DK26$`/$6;D6&amp;0IOY],N3:]YF[J"[I?_K/OK6OK'PK;H4^T2??TW?&gt;4C=&gt;DU=&gt;$A@N^XPN&gt;DNNNVNN.BONVWON6KO(R]!&lt;DI=(QK0HEN]OS_?\:@H)_`P\:@FU`T@_3`_$:[.?[PNR7;-PB*XN3!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.2</Property>
@@ -155,13 +157,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
 		<Item Name="Shutdown Process.vi" Type="VI" URL="../Public/Shutdown Process.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!6%U&amp;Q='RJ9W&amp;U;7^O,GRW9WRB=X-!"V*J:S"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$&amp;"S&lt;W.F=X-A4G&amp;N:1!!*E"Q!"Y!!"5418"Q&lt;'FD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!'5GFH)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!6%U&amp;Q='RJ9W&amp;U;7^O,GRW9WRB=X-!"V*J:S"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$&amp;"S&lt;W.F=X-A4G&amp;N:1!!*E"Q!"Y!!"5418"Q&lt;'FD982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!'5GFH)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">41943056</Property>
 		</Item>
 	</Item>
 	<Item Name="Clear.vi" Type="VI" URL="../Clear.vi">
