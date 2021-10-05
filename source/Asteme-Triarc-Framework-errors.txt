@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Error codes used by the Triarc Framework
+
+<nifamily familyname="Triarc Framework" displayname="TF">
+</nifamily>
+</nicomment>
+<nierror code="9500">
+Process not initialized.
+</nierror>
+<nierror code="9501">
+Timed out stopping process.
+</nierror>
+<nierror code="9502">
+Process was stopped while waiting for request.
+</nierror>
+<nierror code="9503">
+Unknown command received in "%s": "%s"
+</nierror>
+<nierror code="9504">
+Process cleared while running.
+</nierror>
+<nierror code="9505">
+Timed out waiting for request.
+</nierror>
+<nierror code="9506">
+Trying to make request to process which is not running.
+</nierror>
+<nierror code="9507">
+Request to self is not allowed from inside process loop.
+</nierror>
+<nierror code="9508">
+Sending to self should be avoided from inside process loop.
+</nierror>
+<nierror code="9509">
+Action not allowed from outside process loop.
+</nierror>
+<nierror code="9510">
+Response message not called from within state receiving request or request timed out.
+</nierror>
+<nierror code="9511">
+Process already initialized.
+</nierror>
+<nierror code="9512">
+Could not find requested process.
+</nierror>
+<nierror code="9513">
+Failed to start Helper Loop.
+</nierror>
+<nierror code="9514">
+Trying to start process which is already running.
+</nierror>
+</nidocument>

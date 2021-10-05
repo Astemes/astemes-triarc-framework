@@ -1005,6 +1005,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
+			<Item Name="Asteme-Triarc-Framework-errors.txt" Type="Document" URL="../Asteme-Triarc-Framework-errors.txt"/>
 		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl">
@@ -1370,12 +1371,14 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[10].destName" Type="Str">Error Codes</Property>
+				<Property Name="Destination[10].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/user.lib/errors</Property>
 				<Property Name="Destination[2].destName" Type="Str">Triarc Framework Test Suite</Property>
 				<Property Name="Destination[2].libraryName" Type="Str">TFTS.lvlib</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/Source Distributions/Triarc Framework Test Suite</Property>
@@ -1400,8 +1403,8 @@
 				<Property Name="Destination[9].destName" Type="Str">Project Provider</Property>
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">10</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2E1DB2D-2650-4BBB-8EEA-3EE4FC8629E4}</Property>
+				<Property Name="DestinationCount" Type="Int">11</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D481563D-B706-4515-BCEF-127EC9861E9E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1567,6 +1570,8 @@
 				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Framework Tests/Mock Process Test.lvclass</Property>
 				<Property Name="Source[42].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[42].type" Type="Str">Library</Property>
+				<Property Name="Source[43].destinationIndex" Type="Int">10</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/IDE Integration/Asteme-Triarc-Framework-errors.txt</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
@@ -1596,7 +1601,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/IDE Integration/Process Generation/Process Generation.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">43</Property>
+				<Property Name="SourceCount" Type="Int">44</Property>
 			</Item>
 		</Item>
 	</Item>
