@@ -45,9 +45,6 @@ Process already initialized.
 <nierror code="9512">
 Could not find requested process.
 </nierror>
-<nierror code="9513">
-Failed to start Helper Loop.
-</nierror>
 <nierror code="9514">
 Trying to start process which is already running.
 </nierror>
