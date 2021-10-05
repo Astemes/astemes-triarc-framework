@@ -244,17 +244,6 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 			</Item>
 		</Item>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="Access Mode.ctl" Type="VI" URL="../Protected/TypeDefs/Access Mode.ctl">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!S!!!!!1!K!0%!!!!!!!!!!A^1=G^D:8.T,GRW9WRB=X-*1W^O&gt;(*P&lt;#!R!!A!!!!"!!!!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
-			</Item>
-		</Item>
 		<Item Name="Broadcasting" Type="Folder">
 			<Item Name="Broadcast Message.vi" Type="VI" URL="../Protected/Broadcasting/Broadcast Message.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!2$V"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!05GFH)&amp;"S&lt;W.F=X-A4X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%E"4$%VF=X.B:W5A2'&amp;U91!!%%!Q`````Q&gt;.:8.T97&gt;F!#J!=!!?!!!2$V"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!/5GFH)&amp;"S&lt;W.F=X-A37Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#A!!!B!!!!#3!!!!!!%!#A!!!!!</Property>
