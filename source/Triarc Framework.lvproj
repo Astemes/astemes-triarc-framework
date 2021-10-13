@@ -26,6 +26,7 @@
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Framework/Helper Loop/Helper Loop.lvclass"/>
 			<Item Name="Async Action.lvclass" Type="LVClass" URL="../Framework/Asynchronous Action/Async Action.lvclass"/>
 			<Item Name="Logging.lvclass" Type="LVClass" URL="../Framework/Logging/Logging.lvclass"/>
+			<Item Name="Broadcast Event Helpers.lvlib" Type="Library" URL="../Framework/Broadcast Event Helpers/Broadcast Event Helpers.lvlib"/>
 		</Item>
 		<Item Name="Framework Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
@@ -1349,6 +1350,15 @@
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Dequeue Broadcast Message by Message.vi" Type="VI" URL="../Framework/Event Helpers/Dequeue Broadcast Message by Message.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Execution timer.vi" Type="VI" URL="../Framework/Event Helpers/Execution timer.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Dequeue Broadcast Message.vi" Type="VI" URL="../Framework/Event Helpers/Dequeue Broadcast Message.vi">
+				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
