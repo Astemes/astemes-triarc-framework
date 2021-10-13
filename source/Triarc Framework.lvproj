@@ -1351,15 +1351,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Dequeue Broadcast Message by Message.vi" Type="VI" URL="../Framework/Event Helpers/Dequeue Broadcast Message by Message.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="Execution timer.vi" Type="VI" URL="../Framework/Event Helpers/Execution timer.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="Dequeue Broadcast Message.vi" Type="VI" URL="../Framework/Event Helpers/Dequeue Broadcast Message.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
@@ -1381,7 +1372,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions</Property>
@@ -1414,7 +1405,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D481563D-B706-4515-BCEF-127EC9861E9E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F5407806-D15E-42CE-AB26-60E0FA61FF20}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1532,7 +1523,7 @@
 				<Property Name="Source[32].type" Type="Str">Library</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Framework Tests/Helper Loop Test.lvclass</Property>
-				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[33].type" Type="Str">Library</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Framework Tests/Error Handler Interface Test.lvclass</Property>
@@ -1557,7 +1548,7 @@
 				<Property Name="Source[38].type" Type="Str">Library</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Framework Tests/Mock Classes/Mock Log Handler.lvclass</Property>
-				<Property Name="Source[39].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/IDE Integration/Menu/Tools Menu/Add TF to Project.vi</Property>
