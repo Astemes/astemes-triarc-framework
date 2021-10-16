@@ -33,6 +33,7 @@
 				<Item Name="Mock Process.lvclass" Type="LVClass" URL="../Framework Test/Mock Process/Mock Process.lvclass"/>
 				<Item Name="Mock Error Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Error Handler/Mock Error Handler.lvclass"/>
 				<Item Name="Mock Log Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Log Handler/Mock Log Handler.lvclass"/>
+				<Item Name="Mock Configurable.lvclass" Type="LVClass" URL="../Framework Test/Mock Configurable/Mock Configurable.lvclass"/>
 			</Item>
 			<Item Name="Base Test.lvclass" Type="LVClass" URL="../Framework Test/Base Class Test/Base Test.lvclass"/>
 			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test/Process Test/Process Test.lvclass"/>
@@ -43,6 +44,8 @@
 			<Item Name="Framework Test Support.lvlib" Type="Library" URL="../Framework Test/Support/Framework Test Support.lvlib"/>
 			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../Framework Test/Logger Test/Logger Test.lvclass"/>
 			<Item Name="Mock Process Test.lvclass" Type="LVClass" URL="../Framework Test/Mock Process Test/Mock Process Test.lvclass"/>
+			<Item Name="Configuration Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Configuration Interface Test/Configuration Interface Test.lvclass"/>
+			<Item Name="Configuration File Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Configuration File Interface Test/Configuration File Interface Test.lvclass"/>
 		</Item>
 		<Item Name="IDE Integration" Type="Folder">
 			<Item Name="Menu" Type="Folder">
@@ -1336,6 +1339,9 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>

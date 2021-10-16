@@ -57,15 +57,5 @@ The In Process Loop flag will remain true in an asynchronous action.</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
 		</Item>
 	</Item>
-	<Item Name="Public" Type="Folder">
-		<Item Name="Handle Errors.vi" Type="VI" URL="../Public/Handle Errors.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%&amp;T?7ZD)%&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!!118.Z&lt;G-A17.U;7^O)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$$`````#%RP9W&amp;U;7^O!!!Q1(!!(A!!&amp;B2"=XFO9S""9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!$U&amp;T?7ZD)%&amp;D&gt;'FP&lt;C"*&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
-		</Item>
-	</Item>
+	<Item Name="Public" Type="Folder"/>
 </LVClass>
