@@ -1350,7 +1350,6 @@
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="TF.lvlib" Type="Library" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/TF.lvlib"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
