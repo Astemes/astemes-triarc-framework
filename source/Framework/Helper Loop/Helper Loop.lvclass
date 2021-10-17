@@ -76,5 +76,4 @@
 			<Property Name="NI.ClassItem.State" Type="Int">532496</Property>
 		</Item>
 	</Item>
-	<Item Name="Public" Type="Folder"/>
 </LVClass>
