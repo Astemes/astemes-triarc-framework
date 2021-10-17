@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Event Helpers.lvlib" Type="Library" URL="../Event Helpers/Event Helpers.lvlib"/>
 	<Item Name="Execution timer.vi" Type="VI" URL="../Execution timer.vi"/>
 	<Item Name="Millisecond Time Delay.vi" Type="VI" URL="../Millisecond Time Delay.vi"/>
 </Library>
