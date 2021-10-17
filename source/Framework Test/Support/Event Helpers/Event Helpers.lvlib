@@ -11,8 +11,4 @@
 </Property>
 	<Item Name="Count Event Message by Message Data.vi" Type="VI" URL="../Count Event Message by Message Data.vi"/>
 	<Item Name="Count Event Message by Message.vi" Type="VI" URL="../Count Event Message by Message.vi"/>
-	<Item Name="Dequeue Event Message by Message Data.vi" Type="VI" URL="../Dequeue Event Message by Message Data.vi"/>
-	<Item Name="Dequeue Event Message by Message.vi" Type="VI" URL="../Dequeue Event Message by Message.vi"/>
-	<Item Name="Dequeue Event Message by Sender.vi" Type="VI" URL="../Dequeue Event Message by Sender.vi"/>
-	<Item Name="Dequeue Event Message.vi" Type="VI" URL="../Dequeue Event Message.vi"/>
 </Library>
