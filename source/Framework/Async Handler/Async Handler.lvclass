@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
-	<Property Name="NI.Lib.Description" Type="Str">The Async Action interface applied to a process enables the launch of a call and forget VI for parallell processing asynchronously to the main process.
+	<Property Name="NI.Lib.Description" Type="Str">The Async Handler interface applied to a process enables the launch of a call and forget VI for parallell processing asynchronously to the main process.
 The In Process Loop flag will remain true in an asynchronous action.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!*Q(C=\&gt;5^4FN2%)&lt;B$U2"[RUA&lt;W%71//+XF8[W9,&lt;F+\I:QP?AE8BAG[5)C72R1YM+EN5THMH)_S1#%&gt;+)"4=YW0M\`Q^0P@I)N6V,JVJ&gt;_R;P8D^7&lt;N5&lt;VL^+083M`&lt;[8OX\4NV_-+)_6I_$_9=@M^LX7`VWP0&lt;D@VH`&lt;X`@3_V(,HV=(^@`P4Y@0;3P@G:0.$S)K%E.KF..QV+\*%`S*%`S*%`S)!`S)!`S)!^S*X&gt;S*X&gt;S*X&gt;S)T&gt;S)T&gt;S)T@S+O1C&amp;\H))37,*QMFES94**WB+(F,0)EH]31?PCLR**\%EXA3$VW5?"*0YEE]C9&gt;B3DS**`%EHM4$6#8*+O2Y%A`4+`!%HM!4?!)03SLQ")"AM7$C9")9#BK$$Y%H]!1?0CLQ"*\!%XA#$]U+0)%H]!3?Q-/1WJ5IT6$)]4#.()`D=4S/R`%QN2S0YX%]DM@RM*Q=D_.R%-[#TO11Z!RS/DB@()`DY9]=D_.R0)\(]&gt;"5&gt;]BL:Q&lt;.5-DR'"\$9XA-D_&amp;B#BE?QW.Y$)`B96I:(M.D?!S0Y7%J'2\$9XA-C,%IS]O9T"BI&gt;$)#Q]/L4IP689K37"7J$[`[5+I0G`I1K1_(_K;L&lt;[&lt;[*KEX8\WJ[MV3&lt;Y,[R[H2;IR[%@8AI;-WP+_J3_K#/K@/K&amp;0KB$KGDI;B`\DD:L02?LX7=LH59L(1@$\8&lt;$&lt;4&gt;$L6:$,2?$T7;$2[?AR=5*Y?#$]`FRZP0VU_XFT&gt;&lt;\^]X4VM\_[XV^]OX_"`[4NY.OJ5B`/S2^]"XX1!D!!!!!!</Property>
@@ -24,37 +24,37 @@ The In Process Loop flag will remain true in an asynchronous action.</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">10493968</Property>
 		</Item>
 	</Item>
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Async Action.vi" Type="VI" URL="../Protected/Async Action.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!818.Z&lt;G.I=G^O&lt;X6T)%&amp;D&gt;'FP&lt;C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!/%"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!":"=XFO9WBS&lt;WZP&gt;8-A17.U;7^O)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!)1!!!!E!!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!218.Z&lt;G-A3'&amp;O:'RF=C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!-E"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!"""=XFO9S")97ZE&lt;'6S)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!)1!!!!E!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
 		<Item Name="Broadcast Message.vi" Type="VI" URL="../Protected/Broadcast Message.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!818.Z&lt;G.I=G^O&lt;X6T)%&amp;D&gt;'FP&lt;C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!/%"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!":"=XFO9WBS&lt;WZP&gt;8-A17.U;7^O)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!)1!!!!E!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
 		<Item Name="Launch Async Handler.vi" Type="VI" URL="../Protected/Launch Async Handler.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!118.Z&lt;G-A17.U;7^O)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!-%"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!!^"=XFO9S""9X2J&lt;WYA37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!#!!!"!A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!118.Z&lt;G-A17.U;7^O)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!-%"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!!^"=XFO9S""9X2J&lt;WYA37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!#!!!"!A!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">44040208</Property>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder"/>
