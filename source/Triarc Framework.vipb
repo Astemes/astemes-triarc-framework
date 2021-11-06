@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-11-04 08:53:30" Creator="Anton Sundqvist" Comments="" ID="511b2b2224d5c32c8443fdebd1ad5df3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2021-11-06 23:06:35" Creator="Anton Sundqvist" Comments="" ID="b7be414cf3ac80bbdeabc5d4901ad9ae">
   <Library_General_Settings>
-    <Package_File_Name>Asteme_lib_Triarc_Framework</Package_File_Name>
-    <Library_Version>1.0.0.94</Library_Version>
+    <Package_File_Name>Astemes_lib_Triarc_Framework</Package_File_Name>
+    <Library_Version>1.0.0.95</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
-    <Company_Name>Asteme</Company_Name>
+    <Company_Name>Astemes</Company_Name>
     <Library_Summary/>
     <Library_License/>
     <Package_LabVIEW_Version>20.0</Package_LabVIEW_Version>
@@ -30,7 +30,7 @@
       <One_Line_Description_Summary/>
       <Description/>
       <Copyright/>
-      <Packager/>
+      <Packager>Anton Sundqvist</Packager>
       <URL/>
       <Release_Notes/>
     </Description>
@@ -147,7 +147,7 @@
     <Palette_Sets>
       <Palette_Set_Name>Default</Palette_Set_Name>
       <Use_Custom_Category>false</Use_Custom_Category>
-      <Custom_Category_Name/>
+      <Custom_Category_Name>Asteme</Custom_Category_Name>
       <Custom_Category_Icon>00000432002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000001ED000001B9000000060007001B00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000000000000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000007FF46ED5FFFA849D7FFEC4D5FFFA24957FFAC4D5FFF000007FF002900000012000000020000000D00CCCCFF000100000000000A0000000800190000002000200028000001ED000001B9001900060020001B00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C00006C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000007FF46ED5FFFA849D7FFEC4D5FFFA24957FFAC4D5FFF000007FF</Custom_Category_Icon>
       <Controls_Palette_Information>
         <Virtual_Palette_Base_Path>Controls</Virtual_Palette_Base_Path>
@@ -352,7 +352,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Lifecycle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D53ED97378B9AAA6DBE14D60D1670F7</GUID>
+      <GUID>FEA16710C4B50AAB959413349CC02D14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,7 +443,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Application\Public\Shutdown Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>512901EBF750C08D766B4328245D3E40</GUID>
+      <GUID>21D3451A05F40FB2414E964A04850B24</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -478,7 +478,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Async Handler\Protected\Launch Async Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB027C814E7C67EA1553FF0552F33122</GUID>
+      <GUID>5DD0ED12152459A3DD1A7645C23D3281</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -751,7 +751,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Error Log Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1DC53F94195231D91B0330AAA92A9B4</GUID>
+      <GUID>469477AECD05C5E67567755E29EE9E89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -800,7 +800,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Stop Helper Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A90505A7A81D8E70BE44904D1810FD65</GUID>
+      <GUID>1DF72EAD8FCC789E02B7DBFB29B8D7F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -933,7 +933,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\SubVIs\Get Context.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CAB14B0AEBDDA59BEE4192EC7F200F33</GUID>
+      <GUID>4FF965C49D33EB912F11BD29ECAD31C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1010,7 +1010,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\View\Public\Hide Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7A40A430E936C984EB0300F74EC2A905</GUID>
+      <GUID>2D3D42D2B9A2838378C5785AFE190CCC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1171,7 +1171,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Broadcast Event Helpers\Dequeue Broadcast Message by Message Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52BCA11AA3189421D027D0EFA3072936</GUID>
+      <GUID>5C04E87A8556CEEF59C365B0CA41EBBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1234,7 +1234,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\Messaging\Request Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>639A12143764D8848ED02FF752217913</GUID>
+      <GUID>5D94C96FE50567174365EC80FA7B9825</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1283,7 +1283,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Public\Lifecycle\Wait for Life Cycle State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD3B2C60369373318B40C3C99BD496F8</GUID>
+      <GUID>FB8A51BAE7C7118841D09D7EAB7DB503</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1374,7 +1374,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Logging\Log Critical.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B54277E68BBD8C437F1CA45A2B90D5DE</GUID>
+      <GUID>DE43F549524EB0DF88D256088DAB1FCC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
