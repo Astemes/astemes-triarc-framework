@@ -20,7 +20,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Test Case.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass"/>
+		<Item Name="Test Case.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 	</Item>
 	<Item Name="Configuration Interface Test.ctl" Type="Class Private Data" URL="Configuration Interface Test.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -158,13 +158,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 	</Item>
 	<Item Name="Test Dynamic Test Method.vit" Type="VI" URL="../Test Dynamic Test Method.vit">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!G*%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!*C2$&lt;WZG;7&gt;V=G&amp;U;7^O)%FO&gt;'6S:G&amp;D:3"5:8.U,GRW9WRB=X-!!!R5:8.U)%.B=W5A37Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!G*%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!*C2$&lt;WZG;7&gt;V=G&amp;U;7^O)%FO&gt;'6S:G&amp;D:3"5:8.U,GRW9WRB=X-!!!R5:8.U)%.B=W5A37Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">44040208</Property>
 	</Item>
 	<Item Name="Test Static Test Method.vit" Type="VI" URL="../Test Static Test Method.vit">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;'!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!G*%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!*C2$&lt;WZG;7&gt;V=G&amp;U;7^O)%FO&gt;'6S:G&amp;D:3"5:8.U,GRW9WRB=X-!!!R5:8.U)%.B=W5A37Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
