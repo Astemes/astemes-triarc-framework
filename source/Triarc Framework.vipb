@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2022-01-15 13:03:34" Creator="Anton Sundqvist" Comments="" ID="c9026ada9c32e1a2b9e5eaa162bdc690">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2022-01-15 13:11:38" Creator="Anton Sundqvist" Comments="" ID="d30bfc8341505db6a14bad587106cc68">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_Triarc_Framework</Package_File_Name>
     <Library_Version>1.0.0.96</Library_Version>
@@ -182,7 +182,6 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -366,7 +365,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Base</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4240F94ADC650B136AC38E9E6168B570</GUID>
+      <GUID>C9427F99BF22038F30ECFF85A0D6AF1E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -457,7 +456,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Application\Public\Shutdown Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F09D693D230A70B15567AF414CB6CC8</GUID>
+      <GUID>E7664DFBDB9C60593F3CD5312D5BC0C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +491,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Async Handler\Protected\Launch Async Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8340DFA1789527A0B1C20F7E88E73D7B</GUID>
+      <GUID>156ADD8118C527AED4471A071AE7B119</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -513,62 +512,6 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..\VIPM Package Build Specifications\Configuration File</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Open Config File.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Open Config File.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get All Keys.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Get All Keys.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Close Config File.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Close Config File.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Boolean.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Read Methods\Read Boolean.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -726,46 +669,60 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Data Path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Get All Keys.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>4</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Data Path.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Get All Keys.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Log Path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Read Boolean.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>5</Column>
+          <Row>2</Row>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Log Path.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Read Methods\Read Boolean.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Error Log Path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Close Config.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>6</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\File Paths\Read Error Log Path.vi</Path>
+        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Close Config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F3EF96F599A4E6BA4974ECCE3272072</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Open Config.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Source Distributions\Triarc Framework\Configuration File\Open Config.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>995BA15D4CDAD21699733CEE356979B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -814,7 +771,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Helper Loop\Protected\Stop Helper Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF0958A21A12A79853F6008BE30213E7</GUID>
+      <GUID>8F6A1405BD4A64B4414DCED3EE74C23B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -947,7 +904,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\SubVIs\Get Context.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>700B79AF2DC1B56D4EB998A6A167BD6E</GUID>
+      <GUID>D557765E0CA0E8747BF9F481630554A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1024,7 +981,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\View\Public\Hide Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>767D2AE4AE99874411981E262B4686A4</GUID>
+      <GUID>B3D2890E8CD57FECED391F9ADD25DE0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1185,7 +1142,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Broadcast Event Helpers\Dequeue Broadcast Message by Message Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3DCDE95306E00BFBC8F3FE575452FDD</GUID>
+      <GUID>9C8748AC6CB31F546BCDA0229DEA4FCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1248,7 +1205,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Protected\Messaging\Request Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AC48CEA54758FC8356AA15D87D8316B</GUID>
+      <GUID>C68AAC9752D89AC5C46843ADD5A0DC1E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1297,7 +1254,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Process\Public\Lifecycle\Wait for Life Cycle State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>717EAB3FD8DDEED73E2E475E43879EF8</GUID>
+      <GUID>B2921AD93C37451395A8BCF19C6F9761</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1388,7 +1345,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Logging\Log Critical.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F64B1A65741607F9AB2F9A5A3E03E45</GUID>
+      <GUID>77389EEA07F5563063F353684E86BAD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1465,7 +1422,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Base\Public\Read Config File Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7D41C5DE52D44E538FD1B1CC392DB9C</GUID>
+      <GUID>8F824F34B816CDC3797FAA2BB201146E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
