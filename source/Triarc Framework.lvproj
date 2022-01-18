@@ -1253,6 +1253,10 @@
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
 			<Item Name="provcom_GetObjectItemFromProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetObjectItemFromProjectItem.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Dog Test.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Test Classes/Dog Test/Dog Test.lvclass"/>
+			<Item Name="Animal Test.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Test Classes/Animal Test/Animal Test.lvclass"/>
+			<Item Name="Animal.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Classes/Animal/Animal.lvclass"/>
+			<Item Name="Dog.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Classes/Dog/Dog.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
