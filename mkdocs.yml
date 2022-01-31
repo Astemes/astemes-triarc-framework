@@ -1,8 +1,0 @@
-site_name: Triarc Docs
-docs_dir: docs
-nav: 
-    - Home: Readme.md
-    - Articles:
-        - Asynchronous Messaging: Blog\Asynchronous Messaging\Asynchronous Messaging.md
-        - LabVIEW on Rails: Blog\LabVIEW on Rails\LabVIEW on Rails.md
-    - API Documentation: Antidoc-Output\Project-Documentation.pdf
