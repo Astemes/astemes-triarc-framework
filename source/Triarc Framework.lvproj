@@ -1231,30 +1231,6 @@
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass/Test Case.ctl"/>
-				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
-				<Item Name="Fail If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If Error.vi"/>
-				<Item Name="Pass.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass.vi"/>
-				<Item Name="Fail.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail.vi"/>
-				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Set Assertion Type.vi"/>
-				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Add test result.vi"/>
-				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Passed.vi"/>
-				<Item Name="LUnit Get Test Case.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Get Test Case.vi"/>
-				<Item Name="LUnit Get Test Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Assertion Result/LUnit Get Test Name.vi"/>
-				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Message.vi"/>
-				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Description.vi"/>
-				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Assertion Type.vi"/>
-				<Item Name="Read Test Case Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Read Test Case Name.vi"/>
-				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass"/>
-				<Item Name="Pass If Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Equal.vi"/>
-				<Item Name="Variant to string.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Variant to string.vi"/>
-				<Item Name="Pass If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If.vi"/>
-				<Item Name="Pass If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Error.vi"/>
-				<Item Name="Fail If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If.vi"/>
-				<Item Name="Skip.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Skip.vi"/>
-				<Item Name="LUnit Write Skipped.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Skipped.vi"/>
-				<Item Name="Execution timer.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Execution timer.vi"/>
-				<Item Name="Dequeue Broadcast Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Dequeue Broadcast Message.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
