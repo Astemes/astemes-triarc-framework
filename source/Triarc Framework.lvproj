@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="CCSymbols" Type="Str">DEBUG,FALSE;</Property>
+	<Property Name="CCSymbols" Type="Str">,;DEBUG,TRUE</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -1230,6 +1230,29 @@
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass/Test Case.ctl"/>
+				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
+				<Item Name="Fail If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If Error.vi"/>
+				<Item Name="Pass.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass.vi"/>
+				<Item Name="Fail.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail.vi"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Passed.vi"/>
+				<Item Name="LUnit Get Test Case.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Get Test Case.vi"/>
+				<Item Name="LUnit Get Test Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Assertion Result/LUnit Get Test Name.vi"/>
+				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Message.vi"/>
+				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Description.vi"/>
+				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Assertion Type.vi"/>
+				<Item Name="Read Test Case Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Read Test Case Name.vi"/>
+				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass"/>
+				<Item Name="Pass If Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Equal.vi"/>
+				<Item Name="Variant to string.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Variant to string.vi"/>
+				<Item Name="Pass If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If.vi"/>
+				<Item Name="Pass If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Error.vi"/>
+				<Item Name="Fail If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If.vi"/>
+				<Item Name="Skip.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Skip.vi"/>
+				<Item Name="LUnit Write Skipped.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Skipped.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1253,10 +1276,6 @@
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
 			<Item Name="provcom_GetObjectItemFromProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetObjectItemFromProjectItem.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Dog Test.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Test Classes/Dog Test/Dog Test.lvclass"/>
-			<Item Name="Animal Test.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Test Classes/Animal Test/Animal Test.lvclass"/>
-			<Item Name="Animal.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Classes/Animal/Animal.lvclass"/>
-			<Item Name="Dog.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Astemes/LUnit/Test Inheritance/Animal Classes/Dog/Dog.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
@@ -1278,7 +1297,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions</Property>

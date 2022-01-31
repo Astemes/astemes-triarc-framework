@@ -26,6 +26,7 @@ pipeline {
 		stage('Test') {
 			steps {
 				runLUnit "${LV_PROJECT_PATH}"
+				junit "reports\\*.xml"
 			}
 		}
 		stage('Build') {
@@ -54,15 +55,8 @@ pipeline {
 			}
 		}
 	}
-	post{
-		always{
-			junit "reports\\*.xml"
-		}
-	}
 	options {
 		buildDiscarder(logRotator(daysToKeepStr: '3', numToKeepStr: '5'))
 	}
-		triggers {
-		pollSCM('H/5 * * * *')
-	}
+
 }
