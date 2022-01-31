@@ -28,7 +28,6 @@
 			<Item Name="Logging.lvclass" Type="LVClass" URL="../Framework/Logging/Logging.lvclass"/>
 			<Item Name="Broadcast Event Helpers.lvlib" Type="Library" URL="../Framework/Broadcast Event Helpers/Broadcast Event Helpers.lvlib"/>
 		</Item>
-		<Item Name="Project-Documentation.pdf" Type="Document" URL="../../docs/Antidoc-Output/Project-Documentation.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi">
@@ -62,9 +61,6 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl">
@@ -112,6 +108,7 @@
 				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

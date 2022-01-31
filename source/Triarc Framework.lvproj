@@ -1253,6 +1253,8 @@
 				<Item Name="Fail If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If.vi"/>
 				<Item Name="Skip.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Skip.vi"/>
 				<Item Name="LUnit Write Skipped.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Skipped.vi"/>
+				<Item Name="Execution timer.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Execution timer.vi"/>
+				<Item Name="Dequeue Broadcast Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Dequeue Broadcast Message.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1297,7 +1299,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions</Property>

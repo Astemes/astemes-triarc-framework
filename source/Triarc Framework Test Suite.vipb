@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:10" Modified_Date="2022-01-22 23:03:01" Creator="Anton Sundqvist" Comments="" ID="b3e85d033aa2a91c8b528c8fdb077151">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:10" Modified_Date="2022-01-30 15:07:26" Creator="Anton Sundqvist" Comments="" ID="b2d36283c9eed65fa95e2688bca26052">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_Triarc_Framework_Test_Suite</Package_File_Name>
-    <Library_Version>1.0.0.50</Library_Version>
+    <Library_Version>1.0.0.51</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc Framework Test Suite</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
