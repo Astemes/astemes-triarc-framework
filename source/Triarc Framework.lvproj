@@ -30,28 +30,32 @@
 		</Item>
 		<Item Name="Framework Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
-				<Item Name="Mock Process.lvclass" Type="LVClass" URL="../Framework Test/Mock Process/Mock Process.lvclass"/>
-				<Item Name="Mock Error Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Error Handler/Mock Error Handler.lvclass"/>
-				<Item Name="Mock Log Handler.lvclass" Type="LVClass" URL="../Framework Test/Mock Log Handler/Mock Log Handler.lvclass"/>
+				<Item Name="Mock Process.lvclass" Type="LVClass" URL="../Framework Test Suite/Mock Process/Mock Process.lvclass"/>
+				<Item Name="Mock Error Handler.lvclass" Type="LVClass" URL="../Framework Test Suite/Mock Error Handler/Mock Error Handler.lvclass"/>
+				<Item Name="Mock Log Handler.lvclass" Type="LVClass" URL="../Framework Test Suite/Mock Log Handler/Mock Log Handler.lvclass"/>
 			</Item>
-			<Item Name="Base Test.lvclass" Type="LVClass" URL="../Framework Test/Base Class Test/Base Test.lvclass"/>
-			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test/Process Test/Process Test.lvclass"/>
-			<Item Name="View Test.lvclass" Type="LVClass" URL="../Framework Test/View Test/View Test.lvclass"/>
-			<Item Name="Application Test.lvclass" Type="LVClass" URL="../Framework Test/Application Test/Application Test.lvclass"/>
-			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
-			<Item Name="Framework Test Support.lvlib" Type="Library" URL="../Framework Test/Support/Framework Test Support.lvlib"/>
+			<Item Name="Base Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Base Class Test/Base Test.lvclass"/>
+			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Process Test/Process Test.lvclass"/>
+			<Item Name="View Test.lvclass" Type="LVClass" URL="../Framework Test Suite/View Test/View Test.lvclass"/>
+			<Item Name="Application Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Application Test/Application Test.lvclass"/>
+			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
+			<Item Name="Framework Test Support.lvlib" Type="Library" URL="../Framework Test Suite/Support/Framework Test Support.lvlib"/>
 		</Item>
 		<Item Name="Development Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
-				<Item Name="Mock Configurable Base.lvclass" Type="LVClass" URL="../Framework Test/Mock Configurable Base/Mock Configurable Base.lvclass"/>
-				<Item Name="Mock Configurable Process.lvclass" Type="LVClass" URL="../Framework Test/Mock Configurable Process/Mock Configurable Process.lvclass"/>
+				<Item Name="Mock Configurable Base.lvclass" Type="LVClass" URL="../../tests/Mock Configurable Base/Mock Configurable Base.lvclass"/>
+				<Item Name="Mock Configurable Process.lvclass" Type="LVClass" URL="../../tests/Mock Configurable Process/Mock Configurable Process.lvclass"/>
 			</Item>
-			<Item Name="Configuration Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Configuration Interface Test/Configuration Interface Test.lvclass"/>
-			<Item Name="Mock Process Test.lvclass" Type="LVClass" URL="../Framework Test/Mock Process Test/Mock Process Test.lvclass"/>
-			<Item Name="Helper Loop Test.lvclass" Type="LVClass" URL="../Framework Test/Helper Loop Test/Helper Loop Test.lvclass"/>
-			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../Framework Test/Logger Test/Logger Test.lvclass"/>
-			<Item Name="Configuration File Process Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Configuration File Process Interface Test/Configuration File Process Interface Test.lvclass"/>
-			<Item Name="Configuration File Base Interface Test.lvclass" Type="LVClass" URL="../Framework Test/Configuration File Interface Test/Configuration File Base Interface Test.lvclass"/>
+			<Item Name="Base Dev Test.lvclass" Type="LVClass" URL="../../tests/Base Dev Test/Base Dev Test.lvclass"/>
+			<Item Name="Process Dev Test.lvclass" Type="LVClass" URL="../../tests/Process Development Test/Process Test/Process Dev Test.lvclass"/>
+			<Item Name="View Dev Test.lvclass" Type="LVClass" URL="../../tests/View Dev Test/View Dev Test.lvclass"/>
+			<Item Name="Application Dev Test.lvclass" Type="LVClass" URL="../../tests/Application Dev Test/Application Dev Test.lvclass"/>
+			<Item Name="Configuration Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration Interface Test/Configuration Interface Test.lvclass"/>
+			<Item Name="Mock Process Test.lvclass" Type="LVClass" URL="../../tests/Mock Process Test/Mock Process Test.lvclass"/>
+			<Item Name="Helper Loop Test.lvclass" Type="LVClass" URL="../../tests/Helper Loop Test/Helper Loop Test.lvclass"/>
+			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../../tests/Logger Test/Logger Test.lvclass"/>
+			<Item Name="Configuration File Process Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Process Interface Test/Configuration File Process Interface Test.lvclass"/>
+			<Item Name="Configuration File Base Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Interface Test/Configuration File Base Interface Test.lvclass"/>
 		</Item>
 		<Item Name="IDE Integration" Type="Folder">
 			<Item Name="Menu" Type="Folder">
@@ -1308,7 +1312,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D98DC58-3557-4DAA-8663-4394115E1B85}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{627A0094-EBB7-41AC-A372-3655CF787657}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
