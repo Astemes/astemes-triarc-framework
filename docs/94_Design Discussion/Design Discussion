@@ -1,0 +1,58 @@
+# Design Discussion
+
+When designing the Triarc Framework, one of the goals where to make it more approchable than Actor Framework.
+Software design is always about making trade offs, and in order to make the readability higher some trade offs have been made.
+This document discusses the most important of theses. 
+
+## Separation of Enqueuer and Actor
+
+The main design difference between Actor Framework (AF) and Triarc Framework (TF) is how the enqueuer concept is implemented.
+In AF messages are sent by calling VI:s on the enqueuer object associated with the actor.
+This is done to protect the state data of the actor, by making it impossible to access it from the enqueuer object.
+
+In TF the enqueuer and process classes are deliberately not separated from each other.
+This puts the responsibility on the developer to not access the data outside the Handle Messages.vi. 
+Utilities are provided to determine whether a VI is called within the process or not, and in practice it is not difficult.
+
+# Orders of Complexity
+
+The reason why the enqueuer is not extracted as a separate class or interface in TF is because it comes with a cost.
+Doing it introduces a lot of complexity as in the AF case messages needs to be defined in separate classes, nesting calls to public methods on the receiving actor. 
+
+Making an AF Actor called Actor A do something requires the caller to determine that the `something` message is compatible with Actor A. 
+If the message calles a dynamic dispatch method on a parent of Actor A, the Actor A may override this VI to change what something it does. 
+The call structure would look something like the diagram below.
+
+![AF Call hierarcy](img\AF_call_hierarchy.png)
+
+In TF the corresponding action is simply to call the `something` API VI on the Process.
+If the process cannot do `something` the run arrow will be broken.
+The call hierarcy is much simpler, as shown below.
+
+![TF Call hierarcy](img\TF_call_hierarchy.png)
+
+## Semantics
+
+There is a slight but important semantic difference in how you interact with an AF Actor compared to a TF Process.
+
+When you want an AF Actor to do something, you enqueue a message to the actor using its enqueuer.
+You should know that the actor can handle the message you send it, or you will get a nasty run-time error.
+There is thus an implicit coupling between the actor and the message, even if there might not be any source code coupling from the actor to the message.
+
+When you want a TF Process to do something, you make an API call on the process object.
+Under the hood, the API call enqueues a message to the Process, but the coupling is made explicit.
+
+## Priority Queues
+
+Actor Framework gives the option of sending messages with different priority levels.
+This adds significant complexity to the application since it increases the number of possible paths through the application.
+There are situations where a different priority message is usefull, but they should be rare.
+
+Triarc provides the option of terminating a process by clearing it, so there is no need to send a high priority shutdown message.
+If it is not an emergency shutdown, it is in most cases better to shut down normally by stopping it and allowing each process to perform potential clean-up.
+
+## Error Handling
+
+## Helper Loops 
+
+## Additional Features in TF
