@@ -81,7 +81,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 	</Item>
-	<Item Name="Test Process Asynchronous Action Stopped when Process Stopped.vi" Type="VI" URL="../../../../source/Framework Test Suite/Process Test/Test Process Asynchronous Action Stopped when Process Stopped.vi">
+	<Item Name="Test Process Asynchronous Action Stopped when Process Stopped.vi" Type="VI" URL="../Test Process Asynchronous Action Stopped when Process Stopped.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!&amp;%BF&lt;("F=C"-&lt;W^Q)&amp;2F=X1A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%UBF&lt;("F=C"-&lt;W^Q)&amp;2F=X1A37Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -90,7 +90,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Test Process Multiple Parallell Processes.vi" Type="VI" URL="../../../../source/Framework Test Suite/Process Test/Test Process Multiple Parallell Processes.vi">
+	<Item Name="Test Process Multiple Parallell Processes.vi" Type="VI" URL="../Test Process Multiple Parallell Processes.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!$&amp;*J:S"5:8.U)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!'BB1=G^D:8.T)%2F&gt;C"5:8.U,GRW9WRB=X-!!!N3;7=A6'6T&gt;#"*&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -108,7 +108,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="Test Process Restart.vi" Type="VI" URL="../../../../source/Framework Test Suite/Process Test/Test Process Restart.vi">
+	<Item Name="Test Process Restart.vi" Type="VI" URL="../Test Process Restart.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%&amp;"S&lt;W.F=X-A6'6T&gt;#"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"I95(*P9W6T=S"%:89A6'6T&gt;#ZM&gt;G.M98.T!!!05(*P9W6T=S"5:8.U)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -126,7 +126,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="Test Process No Process Warnings Through Basic Lifecycle.vi" Type="VI" URL="../../../../source/Framework Test Suite/Process Test/Test Process No Process Warnings Through Basic Lifecycle.vi">
+	<Item Name="Test Process No Process Warnings Through Basic Lifecycle.vi" Type="VI" URL="../Test Process No Process Warnings Through Basic Lifecycle.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%H!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%&amp;"S&lt;W.F=X-A6'6T&gt;#"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"I95(*P9W6T=S"%:89A6'6T&gt;#ZM&gt;G.M98.T!!!05(*P9W6T=S"5:8.U)%FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -153,7 +153,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="Test Process Helper Loop Stopped when Process Stopped.vi" Type="VI" URL="../../../../source/Framework Test Suite/Process Test/Test Process Helper Loop Stopped when Process Stopped.vi">
+	<Item Name="Test Process Helper Loop Stopped when Process Stopped.vi" Type="VI" URL="../Test Process Helper Loop Stopped when Process Stopped.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!&amp;%BF&lt;("F=C"-&lt;W^Q)&amp;2F=X1A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%UBF&lt;("F=C"-&lt;W^Q)&amp;2F=X1A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -351,7 +351,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">277356560</Property>
 	</Item>
-	<Item Name="Test Process No Process Errors Through Basic Lifecycle.vi" Type="VI" URL="../../../../source/Framework Test Suite/Process Test/Test Process No Process Errors Through Basic Lifecycle.vi">
+	<Item Name="Test Process No Process Errors Through Basic Lifecycle.vi" Type="VI" URL="../Test Process No Process Errors Through Basic Lifecycle.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!;'&amp;"S&lt;W.F=X-A2'6W)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!%&amp;"S&lt;W.F=X-A6'6T&gt;#"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"I95(*P9W6T=S"%:89A6'6T&gt;#ZM&gt;G.M98.T!!!05(*P9W6T=S"5:8.U)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
