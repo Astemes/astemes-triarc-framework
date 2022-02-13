@@ -36,15 +36,16 @@
 			</Item>
 			<Item Name="Base Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Base Class Test/Base Test.lvclass"/>
 			<Item Name="Process Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Process Test/Process Test.lvclass"/>
+			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
 			<Item Name="View Test.lvclass" Type="LVClass" URL="../Framework Test Suite/View Test/View Test.lvclass"/>
 			<Item Name="Application Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Application Test/Application Test.lvclass"/>
+			<Item Name="Test Support.lvlib" Type="Library" URL="../Framework Test Suite/Support/Test Support.lvlib"/>
 		</Item>
 		<Item Name="Development Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
 				<Item Name="Mock Configurable Base.lvclass" Type="LVClass" URL="../../tests/Mock Configurable Base/Mock Configurable Base.lvclass"/>
 				<Item Name="Mock Configurable Process.lvclass" Type="LVClass" URL="../../tests/Mock Configurable Process/Mock Configurable Process.lvclass"/>
 			</Item>
-			<Item Name="Error Handler Interface Test.lvclass" Type="LVClass" URL="../Framework Test Suite/Error Handler Interface Test/Error Handler Interface Test.lvclass"/>
 			<Item Name="Base Dev Test.lvclass" Type="LVClass" URL="../../tests/Base Dev Test/Base Dev Test.lvclass"/>
 			<Item Name="Process Dev Test.lvclass" Type="LVClass" URL="../../tests/Process Development Test/Process Test/Process Dev Test.lvclass"/>
 			<Item Name="View Dev Test.lvclass" Type="LVClass" URL="../../tests/View Dev Test/View Dev Test.lvclass"/>
@@ -55,7 +56,6 @@
 			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../../tests/Logger Test/Logger Test.lvclass"/>
 			<Item Name="Configuration File Process Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Process Interface Test/Configuration File Process Interface Test.lvclass"/>
 			<Item Name="Configuration File Base Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Interface Test/Configuration File Base Interface Test.lvclass"/>
-			<Item Name="Test Support.lvlib" Type="Library" URL="../Framework Test Suite/Support/Test Support.lvlib"/>
 		</Item>
 		<Item Name="IDE Integration" Type="Folder">
 			<Item Name="Menu" Type="Folder">
@@ -1430,10 +1430,10 @@
 				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Development Tests/Helper Loop Test.lvclass</Property>
 				<Property Name="Source[33].type" Type="Str">Library</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Development Tests/Error Handler Interface Test.lvclass</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Framework Tests/Error Handler Interface Test.lvclass</Property>
 				<Property Name="Source[34].type" Type="Str">Library</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Development Tests/Test Support.lvlib</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Framework Tests/Test Support.lvlib</Property>
 				<Property Name="Source[35].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[35].type" Type="Str">Library</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
