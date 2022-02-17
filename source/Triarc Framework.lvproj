@@ -843,7 +843,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
-			<Item Name="Asteme-Triarc-Framework-errors.txt" Type="Document" URL="../Asteme-Triarc-Framework-errors.txt"/>
+			<Item Name="Astemes-Triarc-Framework-errors.txt" Type="Document" URL="../Astemes-Triarc-Framework-errors.txt"/>
 		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl">
@@ -1469,7 +1469,7 @@
 				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Development Tests/Mock Process Test.lvclass</Property>
 				<Property Name="Source[42].type" Type="Str">Library</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/IDE Integration/Asteme-Triarc-Framework-errors.txt</Property>
+				<Property Name="Source[43].itemID" Type="Ref"></Property>
 				<Property Name="Source[44].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>

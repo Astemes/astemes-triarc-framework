@@ -3,6 +3,7 @@
 <nicomment>
 Error codes used by the Triarc Framework
 
+
 <nifamily familyname="Triarc Framework" displayname="TF">
 </nifamily>
 </nicomment>
@@ -47,5 +48,8 @@ Could not find requested process.
 </nierror>
 <nierror code="9514">
 Trying to start process which is already running.
+</nierror>
+<nierror code="9515">
+The Request caused an error in the process.
 </nierror>
 </nidocument>
