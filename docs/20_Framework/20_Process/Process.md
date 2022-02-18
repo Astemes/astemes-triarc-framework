@@ -18,6 +18,8 @@ The process lives its own life in the process loop until it is stopped by callin
 The `Stop.vi` method also waits for the process to finish executing before resuming execution.
 Once finished, the process may either be restarted or cleared to release any resources allocated during initialization.
 
+The framework provides methods for reading the current lifecycle of the process or wait for a specific lifecycle state.
+
 ## The Process Loop
 
 When a `Process` is started, the process loop is launched asynchronously.
@@ -29,11 +31,13 @@ The process loop is esentially a queued message handler which receives messages 
 The VI containing the process is private to the framework and may not be changed by a developer using the framework.
 To implement functionality into a process, the `Handle Messages.vi` is overridden.
 
+The framework implements functionality in the process for debugging, logging and error handling.
+
 ## The `Handle Messages.vi`
 
 To make a process do something interesting, the `Handle Messages.vi` should be overridden and implemented.
 The VI is called in the Process Loop whenever a message is received and by implementing the cases of the case structure, the behavior is defined.
-The process data should only be accessed within the `Handle Messages.vi` and this makes it safe to read and update the data.
+The process data should only be accessed within the `Handle Messages.vi` and this makes it safe to read and update the data without risks for race conditions.
 
 ![Triarc Message Handler](img/HandleMessages.png)
 
@@ -42,3 +46,19 @@ This makes the message handling logic very DRY and only the specific responsibil
 As the number of cases in a `Handle Messages.vi` is typically rather small, the readability is often good.
 
 ![Default Case](img/default_case.png)
+
+## The `Read Configuration.vi`
+
+Configuration management is a central issue for most test systems, and for this reason configuration management is part of the framework.
+The `Read Configuration.vì` is a dynamic dispatch VI which may be overridden to load default configurations.
+The VI is called by the framework when the process is initialized.
+
+## Process Context
+
+When a process is added to an application, the process is aware of its context.
+If process A is added to application B, then B is the context of A.
+If application B is further nested in applcation C, the context of A is still B, but the context of B is C.
+If application C is the top level application, it does not have a context.
+
+Tracking the context of a process is usefull as it allows for communicating from the process back to the caller.
+To make the communication useful, the process will need to make some assertions on the context in which it runs, *e.g.* that it implements a given interface.
