@@ -4,7 +4,7 @@ The `Process` is the fundamental building block of a Triarc application, similar
 
 ## Process Life Cycle
 
-The process maintains information on the lifecycle state of the process, which changes as the process changes state during execution of the application.
+The framework maintains information on the lifecycle state of the process, which changes as the process changes state during execution of the application.
 The lifecycle state is a core concept which is used to ensure internal consistency of the framework.
 The evolution of the lifecycle is shown in the following image.
 

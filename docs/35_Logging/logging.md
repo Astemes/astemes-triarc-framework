@@ -31,4 +31,4 @@ To implement a log handler, a class must be created which implements the `Loggin
 There is one method called `Log.vi` which must be overridden to define what to do with the event to be logged. 
 Common implementations is to display the log in a text indicator or log the content to a file.
 
-To see a basic example of a log handler, see the Coffee Shop example application.
+To see a basic demonstration of a log handler, see the Coffee Shop example application.

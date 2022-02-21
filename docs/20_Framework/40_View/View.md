@@ -17,6 +17,7 @@ There are two requiremetns that the framework asserts on the `View.vi` and it is
 The first is that the `View.vi` reports a refrence to the VI when it is started using the provided framework method.
 The second requirement is that the `View.vi` stops when the `Stop` message is broadcasted.
 This is demonstrated below.
+These requirements are tested in the unit test created with the class when the class is created from the `New Triarc Process` menu item.
 
 ![view.vi bd](img/view_bd.png)
 
