@@ -17,6 +17,7 @@ In other words, this is the only place where the class wire may be unbundled or 
 
 ## Overriding Messages
 
-Since every message is passed to the `Handle Messages.vi`, it will also receive messages defiend by super classes of the specific process.
+Since every message is passed to the `Handle Messages.vi`, it may also receive messages defiend by API calls in super classes of the specific process.
 The normal behavior is to invoke the `Call Parent Class Method.vi` in the default case and let the parent take care of the message.
-It is however possible to override the behavior and handle or add logic to API calls of parent processes.
+It is however possible to override the behavior and handle or add additional logic to API calls of parent processes.
+This is an example on how the Triarc process adheres to the open-closed principle. 
