@@ -13,6 +13,9 @@ The interface requires the implementer to override the `Handle Errors.vi` to imp
 Error handling may be invoked by calling the `Handle Errors.vi` on a process wire (as the Process class implements this interface).
 The actual handling of the error is delegated to the configured error handler.
 
+The `Location` input to the `Handle Errors.vi` is used to specify where the error occured.
+When an error occurs within a process, the location contains the qualified name of the process followed by the message handled while encountering the error.
+
 ## Setting an Error Handler
 
 An error handler may be configured for a process using hte `Set Error Handler` VI.
@@ -26,4 +29,4 @@ This makes it possible for an error handler, which *e.g.* displays any occuring 
 ## Logging Errors 
 
 The concepts of error handling and logging ar separated in Triarc and an error handler should in most cases not be responsible for logging errors.
-This responsibility should be implemented by a log handler.
+This responsibility should be implemented by a log handler as it is often useful to know what happened just before the error occured.
