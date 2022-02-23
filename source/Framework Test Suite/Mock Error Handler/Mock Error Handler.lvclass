@@ -83,7 +83,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 		</Item>
-		<Item Name="Spy Wait in Error.vi" Type="VI" URL="../Public/API/Spy Wait in Error.vi">
+		<Item Name="Spy Wait on Error.vi" Type="VI" URL="../Public/API/Spy Wait on Error.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%"1!!-!!!!"!!)'28*S&lt;X*T!!!31$$`````#%RP9W&amp;U;7^O!!!_1(!!(A!!("J.&lt;W.L)%6S=G^S)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;EVP9WMA28*S&lt;X)A3'&amp;O:'RF=C"0&gt;81!!""!)1J5;7VF:#"P&gt;81`!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!:1!-!%H2J&lt;76P&gt;81A;7YA&lt;8-A+#UR+1!!0%"Q!"Y!!"Q;47^D;S"&amp;=H*P=C")97ZE&lt;'6S,GRW9WRB=X-!!"6.&lt;W.L)%6S=G^S)%BB&lt;G2M:8)A37Y!91$Q!!Q!!Q!%!!5!"A!(!!A!#!!)!!E!#A!)!!M$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!#1!!!!!!!!!!!!!!!!!!!!I!!!!1!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
