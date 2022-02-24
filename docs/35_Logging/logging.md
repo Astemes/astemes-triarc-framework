@@ -1,6 +1,6 @@
 # Logging
 
-Logging is very useful for gaining insight into a running system.
+Logging is very useful for gaining insight into a running system, both during development and when deployed.
 Most modern programming languages provides the scaffolding for writing log information, but LabVIEW does not.
 Triarc provides a powerful and flexible logging mechanism.
 
