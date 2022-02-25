@@ -29,8 +29,8 @@ The `Launch Helper Loop.vi` accepts a Message string and a Message Data variant,
 
 ![Helper palette](img/helper_loop_palette.png)
 
-To stop a running helper loop, the `Stop Helper Loops.vi`, as shown in the palette above, should be called.
-If the `Helper Action.vi` does not terminate by itself, it should be stopped by the host process when the host process is stopped
+All helper loops are stopped by the framework when the process finishes or is cleared.
+It is also possible to stop a running helper loop by calling the `Stop Helper Loops.vi`, shown in the palette above.
 Note that VI stops all running helper loops, and there is no way to selectively stop helper loops provided by the framework.
 
 ## State Data
