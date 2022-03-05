@@ -1216,17 +1216,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
-				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl"/>
-				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl"/>
-				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Passed.vi"/>
-				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Message.vi"/>
-				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Description.vi"/>
-				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Assertion Type.vi"/>
-				<Item Name="LUnit Read Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Assertion Result/LUnit Read Status.vi"/>
-				<Item Name="LUnit Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Message.vi"/>
-				<Item Name="LUnit Read Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Description.vi"/>
-				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass"/>
 				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
@@ -1245,6 +1234,17 @@
 				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
+				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
+				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl"/>
+				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl"/>
+				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Passed.vi"/>
+				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Message.vi"/>
+				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Description.vi"/>
+				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Assertion Type.vi"/>
+				<Item Name="LUnit Read Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Assertion Result/LUnit Read Status.vi"/>
+				<Item Name="LUnit Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Message.vi"/>
+				<Item Name="LUnit Read Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Description.vi"/>
+				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
