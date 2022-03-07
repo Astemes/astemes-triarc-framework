@@ -17,26 +17,35 @@ The In Process Loop flag will remain true in an asynchronous action.</Property>
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Async Runner.vi" Type="VI" URL="../Private/Async Runner.vi">
+		<Item Name="Async Handler.vi" Type="VI" URL="../Private/Async Handler.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!818.Z&lt;G.I=G^O&lt;X6T)%&amp;D&gt;'FP&lt;C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!/%"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!":"=XFO9WBS&lt;WZP&gt;8-A17.U;7^O)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!)1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">10493968</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+		</Item>
+		<Item Name="Log Errors and Warnings.vi" Type="VI" URL="../Private/Log Errors and Warnings.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%O!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!218.Z&lt;G-A3'&amp;O:'RF=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!S1(!!(A!!&amp;R6"=XFO9S")97ZE&lt;'6S,GRW9WRB=X-!%%&amp;T?7ZD)%BB&lt;G2M:8)A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Async Action.vi" Type="VI" URL="../Protected/Async Action.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!218.Z&lt;G-A3'&amp;O:'RF=C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!-E"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!"""=XFO9S")97ZE&lt;'6S)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!)1!!!!E!!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%E"4$%VF=X.B:W5A2'&amp;U91!!%%!Q`````Q&gt;.:8.T97&gt;F!$*!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!118.Z&lt;G-A3'&amp;O:'RF=C"*&lt;A!!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"A!(!!A#!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!#%!!!!*!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 		</Item>
 		<Item Name="Broadcast Message.vi" Type="VI" URL="../Protected/Broadcast Message.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!8&amp;5&amp;T?7ZD)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!818.Z&lt;G.I=G^O&lt;X6T)%&amp;D&gt;'FP&lt;C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31&amp;--476T=W&amp;H:3"%982B!!!11$$`````"UVF=X.B:W5!/%"Q!"Y!!"=618.Z&lt;G-A3'&amp;O:'RF=CZM&gt;G.M98.T!":"=XFO9WBS&lt;WZP&gt;8-A17.U;7^O)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!)1!!!!E!!!!!!"!!I!!!!!</Property>
