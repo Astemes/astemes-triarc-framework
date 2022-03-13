@@ -58,23 +58,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Triarc Framework PPL</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc Framework</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E2286E6E-0DE3-4A2B-BE63-45BCC5A7EFAB}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TF.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TF.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc Framework/TF.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc Framework</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DCE5AADB-F282-483A-B706-D3BC6A8A02B1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E54E6351-2CF3-44C7-994A-AAD7D68B9A3A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TF.lvlib</Property>
@@ -87,9 +84,9 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Astemes</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Triarc Framework PPL</Property>
-				<Property Name="TgtF_internalName" Type="Str">Triarc Framework PPL</Property>
+				<Property Name="TgtF_internalName" Type="Str">Triarc Framework</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Astemes</Property>
-				<Property Name="TgtF_productName" Type="Str">Triarc Framework PPL</Property>
+				<Property Name="TgtF_productName" Type="Str">Triarc Framework</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B62BB9A0-AAEF-4AF5-AE1F-89FAFABD35DE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TF.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
