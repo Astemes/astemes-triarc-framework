@@ -17,6 +17,12 @@ Each `Process` can access its owning `Application` using the `Get Context.vi`.
 As the `Application` is itself a `Process`, there is nothing preventing nesting applications.
 This enables creation of rich architectures with layers of sub systems. 
 
+## Lifecycle Management
+
+An application is responsible for its owned processes and the processes follow the lifecycle of the application.
+If the application is started or stopped, all its owned processes changes lifecycle states in the same way.
+Processes added while the application is running are not started automatically, which enables idle processes to be added to an application.
+
 ## Recursion through the Application
 
 The `Application` does apply certain operaitons recursively through its owned processes.
