@@ -44,7 +44,6 @@
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
-				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -58,6 +57,19 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="TF.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/TF.lvlib"/>
+				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
+				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl"/>
+				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl"/>
+				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Passed.vi"/>
+				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Message.vi"/>
+				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Description.vi"/>
+				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Assertion Type.vi"/>
+				<Item Name="LUnit Read Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Assertion Result/LUnit Read Status.vi"/>
+				<Item Name="LUnit Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Message.vi"/>
+				<Item Name="LUnit Read Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Description.vi"/>
+				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass"/>
+				<Item Name="LUnit Write Skipped.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Skipped.vi"/>
 			</Item>
 			<Item Name="Application.lvclass" Type="LVClass" URL="../Framework/Application/Application.lvclass"/>
 			<Item Name="Process.lvclass" Type="LVClass" URL="../Framework/Process/Process.lvclass"/>

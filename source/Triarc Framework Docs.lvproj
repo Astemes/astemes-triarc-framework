@@ -116,6 +116,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Start Idle Processes if Running.vi" Type="VI" URL="../Framework/Application/Private/Start Idle Processes if Running.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Framework" Type="Source Distribution">
