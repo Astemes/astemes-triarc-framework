@@ -4,23 +4,35 @@ Configuration management is common in most software system and test systems are 
 It is useful to separate out parameters, which are to be editable after the system has been built and deployed, and manage these parameters outside the source.
 Because configuration management is so central to most test systems, the Triarc Framework provides a framework for managing configurations.
 
-Configurations may be stored in any conceivable format, but the most common implementation is to use human readable text files.
-LabVIEW even comes with built in functions for editing key-value pairs in windows style `.ini` text files.
-Another common practice is to use a database for storing configurations.
+Configurations may be stored in any conceivable format, and one common implementation is to use human readable text files.
+LabVIEW comes with built in functions for editing key-value pairs in windows style `.ini` text files.
+Another common practice is to use the windows registry or a database for storing configurations.
 
 ## Triarc Configuration Interface
 
+The Configuration interface defines abstract methods for writing and reading configuration data.
+The implementation may be using any persistance technology.
+This is useful, as an in-memory implementation may be used for testing purposes of as a property object carrying configuration data.
+
 ## Triarc Configuration File Interface
 
-## Adding other formats
+A common way of persisting configurations is to use human readable flat text files.
+This works well in many cases and text files are easy to manage and version control.
 
-- abstracting implementation
-    - Database
-    - registry
-    - json
-    - etc
-- delegation vs inheritance
+Triarc Framework provides the boiler plate for using configuration files to manage configurations.
+The API is shown in the test case below and the configurations are written to the text file.
 
+![test_write_read_double](img\test_write_read_double.png)
+
+The Base.lvclass implements the boiler plate code for carrying the reference to the file.
+
+The Configuration File API implementation is designed to be thread safe and is optimized for reading.
+This means that many processes may read from and write to the same configuration file without race conditions.
+This is done by only allowing one process to write to the configuration file at the same time. 
+
+If many keys are to be read from the configuration file sequentially, the Open Config.vi and Close Config.vi methods shoule be used to reduce over head of opening and closing the reference for each read, as shown below.
+
+![sequential_reads](img\sequential_reads.png)
 
 ## Practices and antipatterns
 
@@ -34,6 +46,12 @@ This implies that there is an inherit risk for race conditions and care should b
 
 In `TF` the configuration management functions ensures that each process can only access its own section of the configuration file.
 In this way the risk for race conditions are reduced.
+
+### Race Conditions
+
+If a reference is opened for writing in many multiple places concurrently, there is a risk for race conditions to occur.
+This is as the last process which closes the file will overwrite the previous writes since it opened the reference to the file.
+As mentioned earlier, this is handled by `TF` as synchronization mechanisms is implemented to only allow a single process to open the file for writing.
 
 ### Default Values
 
