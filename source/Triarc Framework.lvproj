@@ -56,6 +56,8 @@
 			<Item Name="Mock Process Test.lvclass" Type="LVClass" URL="../../tests/Mock Process Test/Mock Process Test.lvclass"/>
 			<Item Name="Helper Loop Test.lvclass" Type="LVClass" URL="../../tests/Helper Loop Test/Helper Loop Test.lvclass"/>
 			<Item Name="Logger Test.lvclass" Type="LVClass" URL="../../tests/Logger Test/Logger Test.lvclass"/>
+			<Item Name="Configuration File Race Condition Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Race Condition Test/Configuration File Race Condition Test.lvclass"/>
+			<Item Name="Configuration File Reference Management Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Reference Management Test/Configuration File Reference Management Test.lvclass"/>
 			<Item Name="Configuration File Process Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Process Interface Test/Configuration File Process Interface Test.lvclass"/>
 			<Item Name="Configuration File Base Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Interface Test/Configuration File Base Interface Test.lvclass"/>
 		</Item>
@@ -1181,6 +1183,17 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
