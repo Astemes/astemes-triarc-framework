@@ -79,4 +79,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 	</Item>
+	<Item Name="Test Demonstration of Configuration file Useage.vi" Type="VI" URL="../Test Demonstration of Configuration file Useage.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'J!=!!?!!!T-5.P&lt;G:J:X6S982J&lt;WYA2GFM:3"1=G^D:8.T)%FO&gt;'6S:G&amp;D:3"5:8.U,GRW9WRB=X-!,5.P&lt;G:J:X6S982J&lt;WYA2GFM:3"1=G^D:8.T)%FO&gt;'6S:G&amp;D:3"5:8.U)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!'J!=!!?!!!T-5.P&lt;G:J:X6S982J&lt;WYA2GFM:3"1=G^D:8.T)%FO&gt;'6S:G&amp;D:3"5:8.U,GRW9WRB=X-!,%.P&lt;G:J:X6S982J&lt;WYA2GFM:3"1=G^D:8.T)%FO&gt;'6S:G&amp;D:3"5:8.U)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 </LVClass>
