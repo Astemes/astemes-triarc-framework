@@ -58,6 +58,10 @@ pipeline {
 		}
 	}
 	post{
+        always { 
+			killLv()
+            cleanWs(notFailBuild: true)
+		}
 		regression{
 			sendMail "anton.sundqvist@astemes.com"
 		}
