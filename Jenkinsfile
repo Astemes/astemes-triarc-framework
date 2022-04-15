@@ -11,12 +11,12 @@ pipeline {
 		LV_BUILD_SPEC = "Triarc Framework"
 		LV_VIPB_PATH = "source\\Triarc Framework.vipb"
 		LV_VERSION = "20.0"
-		COMMIT_TAG = "${bat(returnStdout: true, script: '@git fetch & git tag --contains').trim()}"
 	}
 	stages {
 		stage('Initialize') {
 			steps {
 				library 'astemes-build-support'
+				script{COMMIT_TAG = gitTag()}
 				killLv()
 				initWorkspace()
 				dir("build_support"){
@@ -43,7 +43,7 @@ pipeline {
 		stage('Deploy') {
 			when{
 				expression{
-					env.COMMIT_TAG != null
+					!COMMIT_TAG.isEmpty()
 				}
 			}
 			environment{
