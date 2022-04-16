@@ -1,6 +1,6 @@
 # Design Discussion
 
-When designing the Triarc Framework, one of the goals where to make it more approchable than Actor Framework.
+When designing the Triarc Framework, one of the goals was approachability and ease of use while retaining the full power of the actor model.
 Software design is always about making trade offs, and in order to make the readability higher some trade offs have been made.
 This document discusses the most important of theses. 
 
@@ -44,7 +44,7 @@ Under the hood, the API call enqueues a message to the Process, but the coupling
 
 ## Priority Queues
 
-Actor Framework gives the option of sending messages with different priority levels.
+Some frameworks give the option of sending messages with different priority levels.
 This adds significant complexity to the application since it increases the number of possible paths through the application.
 There are situations where a different priority message is usefull, but they should be rare.
 

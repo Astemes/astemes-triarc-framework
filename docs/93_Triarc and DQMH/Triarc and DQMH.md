@@ -81,14 +81,13 @@ This might seem convenient, but it may also leat to the code being more obscure 
 Modules calling API VIs on each other are explicitely coupled and if the design does not define the calling order for the modules, one might end up with very tight coupling between modules.
 This design makes it complicated to instantiate multiple instances of a module, which in the case of DQMH is solved by introducing a cloneable module which maintains an ID to filter messages by.
 
-In Triarc the references used by the framework are kept within the class darta of the process.
+In Triarc the references used by the framework are kept within the class data of the process.
 This means that you are not able to interract with a process unless you have access to the wire of the process.
 This makes the API adhere to the principles of data flow even if the processes are running asynchronously.
-This design also allows for dependency inversion and to access more specialized functions, the wire must be typecast to the specific type, which is a very explicit way of coupling.
 
 The Triarc framework is design with great care to prevent shared global state.
 There is not a single FGV, named queue, global variable, etc. in Triarc.
-If something needs to be globally accessible, which would often be the case with *e.g.* a log handler or error handler, the resource should be injected on the top level VI, which is responsible for the lifecycle of the global resource.
+If something needs to be globally accessible, which would often be the case with *e.g.* a log handler or error handler, the resource is injected on the top level VI, which is responsible for the lifecycle of the global resource.
 The lack of global state makes it very straight forward to instantiate multiple copies of the same Triarc Process.
 
 ### Dryness
@@ -125,8 +124,9 @@ It also reduces the amount of code duplication as descending classes may use the
 A good example of this is the Show Panel.vi which is included in every DQMH module.
 In triarc this functionality is only defined in the View class and subclasses uses the VI from the View class to open therir panels.
 
-# Dependency Inversion
+### Dependency Inversion
 
+One of the main benefits of object oriented design is the separation of source code dependencies from run time dependencies.
 As DQMH is not object oriented, it is not possible to use abstractions to invert dependencies without wrapping DQMH modules in classes.
 This is a major limitation of the framework and it misses out on one of the core ideas of object oriented design.
 
@@ -140,7 +140,7 @@ This can be pretty useful to ensure bad type casts.
 In Triarc the data is flattened to a variant in each API VI and sent to the process as a variant.
 This puts the responsibility on the developer to cast the variant to the expected data type.
 In practice this is not too painful, as the pipeline the data goes through is well defined.
-It is more painful for broadcasts, as each listener needs to know what data type to expect.
+It is more complicated for broadcasts, as each listener needs to know what data type to expect.
+
 The dynamic typing will require more testing and preferably automated testing to prevent regression issues.
 On the other hand, having the correct type is not equivalent with correct behavior and we should probably be doing the testing regardless.
-
