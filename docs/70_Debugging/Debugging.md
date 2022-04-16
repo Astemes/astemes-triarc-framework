@@ -1,4 +1,5 @@
 # Debugging
+
 Triarc comes with a powerful debugger which enables viewing of messages in an application in real time.
 The debugger is maintained in [its own repository](https://github.com/Astemes/astemes-triarc-debugger) and deployed in a separate VI Package which must be installed in order to use it.
 While the debugger is an invaluable tool, overusing it should be avoided in favor of automated testing.

@@ -6,7 +6,7 @@ The `Process` is the fundamental building block of a Triarc application, similar
 
 The framework maintains information on the lifecycle state of the process, which changes as the process changes state during execution of the application.
 The lifecycle state is a core concept which is used to ensure internal consistency of the framework.
-The evolution of the lifecycle is shown in the following image.
+The normal evolution of the lifecycle is shown in the following image.
 
 ![Triarc Process Lifecycle](img/lifecycle.png)
 
@@ -16,7 +16,7 @@ When the process is started, the main processing loop is launched asynchronously
 The `Start.vi` method waits for the process to have handled the `Start` message and reached the `Running` state before resuming execution.
 The process lives its own life in the process loop until it is stopped by calling the `Stop.vi` method. 
 The `Stop.vi` method also waits for the process to finish executing before resuming execution.
-Once finished, the process may either be restarted or cleared to release any resources allocated during initialization.
+Once finished, the process may either be restarted or cleared, by calling the `Clear.vi` to release any resources allocated during initialization.
 
 The framework provides methods for reading the current lifecycle of the process or wait for a specific lifecycle state.
 
