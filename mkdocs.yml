@@ -1,0 +1,48 @@
+copyright: "Copyright \xA9 None - 2022 Astemes"
+docs_dir: docs
+extra:
+  generator: true
+extra_css:
+- Style/style.css
+markdown_extensions:
+- plantuml_markdown:
+    server: http://www.plantuml.com/plantuml
+nav:
+- Introduction: 10_Introduction/index.md
+- Framework:
+  - 20_Framework/index.md
+  - Base: 20_Framework/10_Base/Base.md
+  - Process: 20_Framework/20_Process/index.md
+  - Application: 20_Framework/30_Application/index.md
+  - View: 20_Framework/40_View/index.md
+- Handling Messages: 23_Handling Messages/index.md
+- Messaging: 25_Messaging/index.md
+- Broadcasting: 26_Broadcasting/index.md
+- Requests: 28_Requests/index.md
+- Error Handling: 30_Error Handling/index.md
+- Logging: 35_Logging/index.md
+- Helper Loops: 40_Helper Loops/index.md
+- Async Handler: 45_Async Handler/index.md
+- Debugging: 70_Debugging/index.md
+- Configuration: 80_Configuration/index.md
+- Best Practices: 90_Best Practices/Best Practices.md
+- Design Discussion: 91_Design Discussion/index.md
+- Triarc and Actor Framework: 92_Triarc and Actor Framework/index.md
+- Triarc and DQMH: 93_Triarc and DQMH/index.md
+plugins:
+- search
+- with-pdf:
+    cover_logo: Style/logo.png
+    cover_subtitle: Astemes - Anton Sundqvist
+    custom_template_path: Style
+    output_path: Template Project.pdf
+repo_url: https://github.com/astemes
+site_author: Anton Sundqvist
+site_name: Template Project
+site_url: http://astemes.com
+theme:
+  favicon: Style/logo.png
+  features:
+  - navigation.indexes
+  logo: Style/logo.png
+  name: material
