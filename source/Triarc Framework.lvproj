@@ -882,6 +882,9 @@
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Broadcast Event Dequeuers.lvlib" Type="Library" URL="../Framework/Broadcast Event Dequeuers/Broadcast Event Dequeuers.lvlib"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi">
@@ -1228,7 +1231,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">60</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME</Property>
@@ -1261,7 +1264,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{483EF486-1830-4664-9679-9F4E0A57E1F5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D3E938A-C4C7-43B5-8DB4-9F8AEFC167B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1417,13 +1420,18 @@
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Development Tests/Mock Process Test.lvclass</Property>
 				<Property Name="Source[42].type" Type="Str">Library</Property>
-				<Property Name="Source[43].destinationIndex" Type="Int">10</Property>
-				<Property Name="Source[43].itemID" Type="Ref"></Property>
+				<Property Name="Source[43].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[43].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/Development Tests</Property>
+				<Property Name="Source[43].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[43].type" Type="Str">Container</Property>
+				<Property Name="Source[44].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/Development Tests</Property>
-				<Property Name="Source[44].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[44].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/Support</Property>
+				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[44].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
