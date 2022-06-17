@@ -7,8 +7,8 @@ pipeline {
 		REPO_URL = "https://github.com/Astemes/astemes-triarc-framework"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2021
-		LV_PROJECT_PATH = "source\\Triarc Framework.lvproj"
-		LV_BUILD_SPEC = "Triarc Framework"
+		LV_PROJECT_PATH = "source\\TF.lvproj"
+		LV_BUILD_SPEC = "TF"
 		LV_VIPB_PATH = "source\\Triarc Framework.vipb"
 		LV_VERSION = "20.0"
 	}

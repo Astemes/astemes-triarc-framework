@@ -1197,17 +1197,6 @@
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="TF.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/TF.lvlib"/>
-				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
-				<Item Name="LUnit Test Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Test Case Result.lvclass/LUnit Test Case Result.ctl"/>
-				<Item Name="LUnit Method Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Method Result.lvclass/LUnit Method Result.ctl"/>
-				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Passed.vi"/>
-				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Message.vi"/>
-				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Description.vi"/>
-				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Write Assertion Type.vi"/>
-				<Item Name="LUnit Read Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Assertion Result/LUnit Read Status.vi"/>
-				<Item Name="LUnit Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Message.vi"/>
-				<Item Name="LUnit Read Description.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Read Description.vi"/>
-				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Assertion Result.lvclass"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1221,13 +1210,12 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Start Idle Processes if Running.vi" Type="VI" URL="../Framework/Application/Private/Start Idle Processes if Running.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Triarc Framework" Type="Source Distribution">
+			<Item Name="TF" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9A495B99-0034-461C-9341-7BDC6E00467E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Triarc Framework</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TF</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
@@ -1248,7 +1236,7 @@
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF</Property>
 				<Property Name="Destination[10].destName" Type="Str">Error Codes</Property>
 				<Property Name="Destination[10].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration/user.lib/errors</Property>
 				<Property Name="Destination[2].destName" Type="Str">Triarc Framework Test Suite</Property>
@@ -1257,14 +1245,14 @@
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Triarc Framework</Property>
 				<Property Name="Destination[3].libraryName" Type="Str">TF.lvlib</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">TF Tools Menu</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework/Tools Menu/Triarc</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF/Tools Menu/Triarc</Property>
 				<Property Name="Destination[5].destName" Type="Str">TFTS Tools Menu</Property>
 				<Property Name="Destination[5].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework Test Suite/Tools Menu/Triarc</Property>
 				<Property Name="Destination[6].destName" Type="Str">Triarc Support</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework/Support</Property>
+				<Property Name="Destination[6].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF/Support</Property>
 				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[7].destName" Type="Str">Triarc IDE Integration</Property>
 				<Property Name="Destination[7].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration</Property>
@@ -1276,7 +1264,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D3E938A-C4C7-43B5-8DB4-9F8AEFC167B4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DCA716C2-574C-4FFB-B52D-5EB430C1DDD2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
