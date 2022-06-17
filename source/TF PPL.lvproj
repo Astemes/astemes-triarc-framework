@@ -69,20 +69,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">TF PPL</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Source Distributions/Packed Library/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Packed Library/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E2286E6E-0DE3-4A2B-BE63-45BCC5A7EFAB}</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TF.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions/Packed Library/NI_AB_PROJECTNAME/TF.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Packed Library/NI_AB_PROJECTNAME/TF.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/Packed Library/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Packed Library/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{355E45F1-F3C9-4641-A21D-DEFBAD2F5830}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{40C0D7AF-7301-4317-8A89-469D2CE1022C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TF.lvlib</Property>
