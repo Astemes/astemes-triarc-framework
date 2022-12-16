@@ -1227,44 +1227,44 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Source Distributions/Triarc Framework</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22EC8FE0-E665-4BF0-BE48-FE1EC72537F7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">61</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Source Distributions/Triarc Framework</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Source Distributions/Triarc Framework/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[10].destName" Type="Str">Error Codes</Property>
-				<Property Name="Destination[10].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration/user.lib/errors</Property>
+				<Property Name="Destination[10].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc IDE Integration/user.lib/errors</Property>
 				<Property Name="Destination[2].destName" Type="Str">Triarc Framework Test Suite</Property>
 				<Property Name="Destination[2].libraryName" Type="Str">TFTS.lvlib</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework Test Suite</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc Framework Test Suite</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Triarc Framework</Property>
 				<Property Name="Destination[3].libraryName" Type="Str">TF.lvlib</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/Source Distributions/Triarc Framework/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">TF Tools Menu</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF/Tools Menu/Triarc</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/Source Distributions/Triarc Framework/NI_AB_PROJECTNAME/Tools Menu/Triarc</Property>
 				<Property Name="Destination[5].destName" Type="Str">TFTS Tools Menu</Property>
-				<Property Name="Destination[5].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc Framework Test Suite/Tools Menu/Triarc</Property>
+				<Property Name="Destination[5].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc Framework Test Suite/Tools Menu/Triarc</Property>
 				<Property Name="Destination[6].destName" Type="Str">Triarc Support</Property>
-				<Property Name="Destination[6].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/TF/Support</Property>
+				<Property Name="Destination[6].path" Type="Path">../builds/Source Distributions/Triarc Framework/NI_AB_PROJECTNAME/Support</Property>
 				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[7].destName" Type="Str">Triarc IDE Integration</Property>
-				<Property Name="Destination[7].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration</Property>
+				<Property Name="Destination[7].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc IDE Integration</Property>
 				<Property Name="Destination[7].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[8].destName" Type="Str">Trirac IDE Integration Tools Menu</Property>
-				<Property Name="Destination[8].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration/Tools Menu/Triarc</Property>
+				<Property Name="Destination[8].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc IDE Integration/Tools Menu/Triarc</Property>
 				<Property Name="Destination[8].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[9].destName" Type="Str">Project Provider</Property>
-				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/NI_AB_PROJECTNAME/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
+				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DCA716C2-574C-4FFB-B52D-5EB430C1DDD2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95B5AF33-D1FA-4782-B399-65367F91A643}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
