@@ -60,6 +60,7 @@
 			<Item Name="Configuration File Reference Management Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Reference Management Test/Configuration File Reference Management Test.lvclass"/>
 			<Item Name="Configuration File Process Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Process Interface Test/Configuration File Process Interface Test.lvclass"/>
 			<Item Name="Configuration File Base Interface Test.lvclass" Type="LVClass" URL="../../tests/Configuration File Interface Test/Configuration File Base Interface Test.lvclass"/>
+			<Item Name="Process Lifecycle Test.lvclass" Type="LVClass" URL="../../tests/Lifecycle Test/Process Lifecycle Test.lvclass"/>
 		</Item>
 		<Item Name="IDE Integration" Type="Folder">
 			<Item Name="Menu" Type="Folder">
