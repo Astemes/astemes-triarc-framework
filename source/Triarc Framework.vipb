@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2022-12-30 15:59:20" Creator="Anton Sundqvist" Comments="" ID="d55aa473093e280339455982dfec0872">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-22 13:33:00" Modified_Date="2023-01-01 19:54:35" Creator="Anton Sundqvist" Comments="" ID="47989707e9f226586dfd518af73d09b9">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_Triarc_Framework</Package_File_Name>
-    <Library_Version>1.0.7.5</Library_Version>
+    <Library_Version>1.0.7.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Source Distributions\Triarc Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM packages</Library_Output_Folder>
@@ -450,7 +450,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\Base</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9FA1B049018D62661C82A355070093D</GUID>
+      <GUID>534DFDF3118F3598F1E7B314E9337F48</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -541,7 +541,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Application\Public\Shutdown Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5333E79A0DCA83CC196D6D2C25240B71</GUID>
+      <GUID>F162ED5040AE0533EEC704DC05541443</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -576,7 +576,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Async Handler\Protected\Launch Async Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD83A50B9ECE3C145B9313131AA05C2C</GUID>
+      <GUID>32732FBE8C603559BEDB512E7DE9D3EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -807,7 +807,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Configuration\Open Config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50AD4A8A587A06D58F744005A0E5C6BA</GUID>
+      <GUID>6AA16506D58DDFAFB96B21E60BABD170</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -856,7 +856,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Helper Loop\Protected\Stop Helper Loops.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A879ACC6423D4D36F193C39587C06639</GUID>
+      <GUID>06F775A63728C120CFDF040D013095B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1017,7 +1017,21 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Process\Public\Handle Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B1BBF8B1F3CACAE44321F8D9488D67D</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Leave Process Loop.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Source Distributions\Triarc Framework\TF\Process\Public\Lifecycle\Leave Process Loop.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>127B0B13C554A036EAA73F19AAD5F586</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1094,7 +1108,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\View\Public\Hide Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D930415DAD051943955BFDF3847B306D</GUID>
+      <GUID>99C84FF8AF1CB25902CAC38F8A9C7288</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1255,7 +1269,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Process\Protected\Broadcasting\Broadcast Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B9C7A04D61BC273BAD36F30A7B4DE3C</GUID>
+      <GUID>E1C0B6DCB77F164BABFF37A3B9AFD8B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1318,7 +1332,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Process\Protected\Messaging\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39DD1BA6955455E00C9191017AFDD756</GUID>
+      <GUID>FC28E910B3514EEC08DD5D53035B127A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1367,7 +1381,21 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Process\Public\Lifecycle\Wait for Life Cycle State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E19D1580E4E2D3111F58C58EFE909635</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Leave Process Loop.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Source Distributions\Triarc Framework\TF\Process\Public\Lifecycle\Leave Process Loop.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>42C30C6C63FD23710F288D3ACBDB4D2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1458,7 +1486,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Logging\Log Critical.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DB8DF7BDF7CD71797BCBA7AB80F9556</GUID>
+      <GUID>956A9F86C3C79237F6380B765D5B3C3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1535,7 +1563,7 @@
         <Path>..\builds\Source Distributions\Triarc Framework\TF\Base\Clear.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D438F500B8B0E24BCA1C20C4808E5CE5</GUID>
+      <GUID>A9978446B3CB3CFBD97EFCFD66CE6D9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
