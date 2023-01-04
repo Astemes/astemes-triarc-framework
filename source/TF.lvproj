@@ -20,6 +20,7 @@
 			<Item Name="Process.lvclass" Type="LVClass" URL="../Framework/Process/Process.lvclass"/>
 			<Item Name="Application.lvclass" Type="LVClass" URL="../Framework/Application/Application.lvclass"/>
 			<Item Name="View.lvclass" Type="LVClass" URL="../Framework/View/View.lvclass"/>
+			<Item Name="Callback.lvclass" Type="LVClass" URL="../Framework/Callback/Callback.lvclass"/>
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../Framework/Configuration/Configuration.lvclass"/>
 			<Item Name="Configuration File.lvclass" Type="LVClass" URL="../Framework/Configuration File/Configuration File.lvclass"/>
 			<Item Name="Error Handler Interface.lvclass" Type="LVClass" URL="../Framework/Error Handler Interface/Error Handler Interface.lvclass"/>
@@ -27,6 +28,7 @@
 			<Item Name="Async Handler.lvclass" Type="LVClass" URL="../Framework/Async Handler/Async Handler.lvclass"/>
 			<Item Name="Logging.lvclass" Type="LVClass" URL="../Framework/Logging/Logging.lvclass"/>
 			<Item Name="Broadcast Event Helpers.lvlib" Type="Library" URL="../Framework/Broadcast Event Helpers/Broadcast Event Helpers.lvlib"/>
+			<Item Name="Synchronous Request Callback.lvclass" Type="LVClass" URL="../Framework/Synchronous Request Callback/Synchronous Request Callback.lvclass"/>
 		</Item>
 		<Item Name="Framework Tests" Type="Folder">
 			<Item Name="Mock Classes" Type="Folder">
