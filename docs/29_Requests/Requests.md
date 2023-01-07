@@ -24,13 +24,13 @@ And if the type needs changing, it will cause a compile-time error which mitigat
 ## Asynchronous Requests
 
 In some cases a synchronous request is acceptable, or even desireable, but there are many situations where a blocking wait for response is unacceptable.
-The recommended way of solving this in the Triarc framework is by using the `Async Request Message.vi` introduced in version 1.1.0. 
+The recommended way of solving this in the Triarc framework is by using the `Async Request Message.vi` introduced in version 1.0.24. 
 The `Async Request Message.vi` takes, in addition to the regular Message string and Message Data variant, a `Callback` interface.
 When the `Response Message.vi` is called from the process loop, the `Callback.vi` of the class, provided when calling `Async Request Message.vi`, is fired.
 This is a very powerful way of implementing requests, as it does not directly couple the callee to the caller.
 It is important to note that there is an indirect coupling, *i.e.* if data or formating of the response changes, it may breake the function of caller.
 
-## Asynchronous Requests prior to Version 1.1.0
+## Asynchronous Requests prior to Version 1.0.24
 
 An asynchronous action runs in parallell to the process and is useful for dispatching requests without blocking the process.
 To implement an asynchronous request, the request API VI is placed in the Helper Action VI, and when the request needs to be dispatched, the Launch Asynchronous Action VI is called.
