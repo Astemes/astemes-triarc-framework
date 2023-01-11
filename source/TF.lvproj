@@ -1267,7 +1267,7 @@
 				<Property Name="Destination[9].path" Type="Path">../builds/Source Distributions/Triarc Framework/Triarc IDE Integration/Project Provider/resource/Framework/Providers</Property>
 				<Property Name="Destination[9].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">11</Property>
-				<Property Name="Source[0].itemID" Type="Str">{95B5AF33-D1FA-4782-B399-65367F91A643}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D689AEDC-CA5F-4B66-B3A5-A861652BAAD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1277,9 +1277,7 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Framework</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">7</Property>
