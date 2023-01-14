@@ -14,6 +14,9 @@ The most recent version, as well as older versioms, are available as a VI Packag
 
 If you are familiar with queued message handler based applications, using the basics of Triarc is quite straight forward.
 
+Reading through the documentation should provide what is needed to get started.
+As everything is available as open source, it is worth exploring the source to understand how the framework is implemented.
+
 Examples are available at https://github.com/Astemes/astemes-triarc-examples
 
 ## Debugger
