@@ -108,13 +108,13 @@
 			</Item>
 		</Item>
 		<Item Name="Request Loopback.vi" Type="VI" URL="../Public/Request Loopback.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E"4&amp;6*F=X"P&lt;H.F)%VF=X.B:W5A2'&amp;U91!;1$$`````%&amp;*F=X"P&lt;H.F)%VF=X.B:W5!!$*!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!147^D;S"1=G^D:8.T)'^V&gt;!!!%%!B#F2J&lt;76E)'^V&gt;$]!!!1!!!!:1!-!%H2J&lt;76P&gt;81A;7YA&lt;8-A+#UR+1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1&amp;-55G6R&gt;76T&gt;#".:8.T97&gt;F)%2B&gt;'%!!"B!-0````]05G6R&gt;76T&gt;#".:8.T97&gt;F!$"!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!047^D;S"1=G^D:8.T)'FO!'%!]!!-!!-!"!!&amp;!!9!"Q!)!!E!#!!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!E!!!!!!!!!#!!!!!!!!!!+!!!!#A!!!AA!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E"4&amp;6*F=X"P&lt;H.F)%VF=X.B:W5A2'&amp;U91!;1$$`````%&amp;*F=X"P&lt;H.F)%VF=X.B:W5!!$*!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!147^D;S"1=G^D:8.T)'^V&gt;!!!%%!B#F2J&lt;76E)'^V&gt;$]!!!1!!!!:1!-!%H2J&lt;76P&gt;81A;7YA&lt;8-A+#UR+1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1&amp;-55G6R&gt;76T&gt;#".:8.T97&gt;F)%2B&gt;'%!!"B!-0````]05G6R&gt;76T&gt;#".:8.T97&gt;F!$"!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!047^D;S"1=G^D:8.T)'FO!'%!]!!-!!-!"!!&amp;!!9!"Q!)!!E!#!!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!E!!!!!!!!!#!!!!!!!!!!)!!!!#!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 		</Item>
 		<Item Name="Mock Process Error.vi" Type="VI" URL="../Public/Mock Process Error.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!147^D;S"1=G^D:8.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!91&amp;!!!Q!!!!%!!AN.&lt;W.L)%6S=G^S)!!Q1(!!(A!!&amp;B2.&lt;W.L)&amp;"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!!$UVP9WMA5(*P9W6T=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
@@ -135,7 +135,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
 		</Item>
 		<Item Name="Mock Launch Helper Loop from Process Loop.vi" Type="VI" URL="../Public/Mock Launch Helper Loop from Process Loop.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!147^D;S"1=G^D:8.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2.&lt;W.L)&amp;"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!!$UVP9WMA5(*P9W6T=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!147^D;S"1=G^D:8.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2.&lt;W.L)&amp;"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!!$UVP9WMA5(*P9W6T=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -278,5 +278,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
+	</Item>
+	<Item Name="Mock Launch Helper Loop from Process Loop Request.vi" Type="VI" URL="../Public/Mock Launch Helper Loop from Process Loop Request.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%VP9WMA5(*P9W6T=SZM&gt;G.M98.T!!!147^D;S"1=G^D:8.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2.&lt;W.L)&amp;"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!!$UVP9WMA5(*P9W6T=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">34078736</Property>
 	</Item>
 </LVClass>

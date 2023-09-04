@@ -1213,7 +1213,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Enqueue Request Message.vi" Type="VI" URL="../Framework/Process/Private/SubVIs/Enqueue Request Message.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TF" Type="Source Distribution">
