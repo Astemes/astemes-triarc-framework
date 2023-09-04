@@ -11,7 +11,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Execution timer.vi" Type="VI" URL="../Execution timer.vi"/>
 	</Item>
-	<Item Name="Dequeue Broadcast Message by Message Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Support/Dequeue Broadcast Message by Message Cluster.vi"/>
+	<Item Name="Dequeue Broadcast Message by Message Cluster.vi" Type="VI" URL="../Dequeue Broadcast Message by Message Cluster.vi"/>
 	<Item Name="Dequeue Broadcast Message by Message Data.vi" Type="VI" URL="../Dequeue Broadcast Message by Message Data.vi"/>
 	<Item Name="Dequeue Broadcast Message by Message.vi" Type="VI" URL="../Dequeue Broadcast Message by Message.vi"/>
 	<Item Name="Dequeue Broadcast Message by Sender.vi" Type="VI" URL="../Dequeue Broadcast Message by Sender.vi"/>
