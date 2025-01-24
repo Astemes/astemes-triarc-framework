@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Anton Sundqvist" name="author"/>
+<link href="http://astemes.com/92_Triarc%20and%20Actor%20Framework/" rel="canonical"/>
+<link href="../Style/logo.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-7.3.4" name="generator"/>
+<title>Triarc and Actor Framework - Astemes Triarc Framework</title>
+<link href="../assets/stylesheets/main.db9e7362.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+<link href="../Style/style.css" rel="stylesheet"/>
+</head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#triarc-and-actor-framework">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Astemes Triarc Framework" class="md-header__button md-logo" data-md-component="logo" href=".." title="Astemes Triarc Framework">
+<img alt="logo" src="../Style/logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Astemes Triarc Framework
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Triarc and Actor Framework
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Astemes/astemes-triarc-framework/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Astemes Triarc Framework" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Astemes Triarc Framework">
+<img alt="logo" src="../Style/logo.png"/>
+</a>
+    Astemes Triarc Framework
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Astemes/astemes-triarc-framework/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../10_Introduction/">
+        Introduction
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../20_Framework/">
+        Framework
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../21_Base/Base/">
+        Base
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../22_Process/">
+        Process
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../23_Application/">
+        Application
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../24_View/">
+        View
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../26_Handling%20Messages/">
+        Handling Messages
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../27_Messaging/">
+        Messaging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../28_Broadcasting/">
+        Broadcasting
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../29_Requests/">
+        Requests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../30_Error%20Handling/">
+        Error Handling
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../35_Logging/">
+        Logging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../40_Helper%20Loops/">
+        Helper Loops
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../45_Async%20Handler/">
+        Async Handler
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../70_Debugging/">
+        Debugging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../80_Configuration/">
+        Configuration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../90_Best%20Practices/Best%20Practices/">
+        Best Practices
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../91_Design%20Discussion/">
+        Design Discussion
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Triarc and Actor Framework
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Triarc and Actor Framework
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#brief-introduction-to-actor-framework">
+    Brief Introduction to Actor Framework
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comparing-actor-framework-to-triarc">
+    Comparing Actor Framework to Triarc
+  </a>
+<nav aria-label="Comparing Actor Framework to Triarc" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#messaging">
+    Messaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#callbacks">
+    Callbacks
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#context-awareness">
+    Context awareness
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#user-interfaces">
+    User Interfaces
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#features">
+    Features
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ease-of-use">
+    Ease of Use
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#conclusions">
+    Conclusions
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../93_Triarc%20and%20DQMH/">
+        Triarc and DQMH
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#brief-introduction-to-actor-framework">
+    Brief Introduction to Actor Framework
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comparing-actor-framework-to-triarc">
+    Comparing Actor Framework to Triarc
+  </a>
+<nav aria-label="Comparing Actor Framework to Triarc" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#messaging">
+    Messaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#callbacks">
+    Callbacks
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#context-awareness">
+    Context awareness
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#user-interfaces">
+    User Interfaces
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#features">
+    Features
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ease-of-use">
+    Ease of Use
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#conclusions">
+    Conclusions
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/Astemes/astemes-triarc-framework/edit/master/docs/92_Triarc and Actor Framework/index.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
+</a>
+<h1 id="triarc-and-actor-framework">Triarc and Actor Framework</h1>
+<p>LabVIEW has already existed for over 30 years and Triarc is not the first framework which has been proposed. Comparing frameworks is not a simple task as different frameworks have merits in different areas. There is simply no such thing as the best framework, it all comes down to who you ask. As of today, there are two frameworks which have achieved a somewhat broad user base. The first is NI Actor Framework is bundled with LabVIEW and is included in the installation of LabVIEW. The second is Delacor DQMH, which is an extenssion and improvement of the NI Queued Message Handler (QMH) template.</p>
+<p>Disclaimer: I tend to be strongly opinionated and I am certainly biased, as I would not have created Triarc if I thought there was better alternatives out there for me.</p>
+<h2 id="brief-introduction-to-actor-framework">Brief Introduction to Actor Framework</h2>
+<p>The Actor Framework is bundled with LabVIEW since LabVIEW 2012 and is maintained by NI.
+It implements an <a href="https://en.wikipedia.org/wiki/Actor_model">actor model</a> with independent actors passing messages to each other asynchronously.
+Each actor is a class overriding the base Actor class and multiple instances of the same actor may be instantiated.</p>
+<p>Actors communicates by sending messages, which are objects.
+The Do method of the message defines the action taken by the actor when the message is received and in contains the functionality of the actor.
+The actor is fed as an input to the Do method of the message and may implement VIs used by the Do method.</p>
+<p>As actors are classes, it is possible to create hierarchies of actors.
+Each actor is able to handle its own messages, as well as messages defined for any of its parents.
+The parents may allow child actors to override methods used in its messages to override the behavior.</p>
+<p>From my own experience, actor framework is regarded as a powerful, yet very complex framework.
+I would recommend at least a CLA level of LabVIEW experience before trying to use actor framework.</p>
+<h2 id="comparing-actor-framework-to-triarc">Comparing Actor Framework to Triarc</h2>
+<p>Both Triarc and Actor Framework implements a version of the actor model and are for this reason very similar conceptually.
+In Triarc the actors are however called processes to avoid confusion.</p>
+<p>The main difference is that messages in Actor Framework are objects implementing the <a href="https://en.wikipedia.org/wiki/Command_pattern">command pattern</a>, while Triarc uses the string and variant message cluster used by the Queued Message Handler template.</p>
+<p>This section will go through some of the design decissions in the two frameworks and how they differ.
+For a better understanding, it is worth exploring the Coffee Shop example which ships with LabVIEW (called Actor Framework Fundamentals) and the counterpart implemented in Triarc.</p>
+<h3 id="messaging">Messaging</h3>
+<p>Actor Framework messages are sent by obtaining a reference to the enqueuer for the receiving actor and calling the Send method with the enqueuer as input.
+The enqueuer wire is a reference and cannot be unbundled to access the actor state outside the actor core process.</p>
+<p>In Triarc messages are sent using the protected Enquque Message method.
+This method should be wrapped in an API VI which builds the message and the API is then called on the class wire to send the message.
+Conceptually the two are quite similar, as seen below.</p>
+<p><img alt="AF Messaging" src="img/ActorFramework_enqueue.PNG">
+<img alt="TF Messaging" src="img/Triarc_enqueue.PNG"/></img></p>
+<p>In actor framework the messages may be either abstract or coupled to a specific actor class hierarchy.
+An actor may allow its children to modify the bahvior of the Do method in a message by using dynamic dispatch methods which the children would then override.</p>
+<p>In Triarc the same concept may be implemented by adding cases in the Handle Messages.vi for the specific message in decending classes.
+An abstract message in Triarc is best implemented using an interface.</p>
+<h3 id="callbacks">Callbacks</h3>
+<p>One nice advantage of using objects as messages is the possibility for defining callbacks.
+A message may be passed as a parameter to be called when a task is completed by another actor and the message may be forwareded between actors.
+An example of this can be found in the Coffee Shop example where the cahier builds a callback message which is sent with the order item to the barista.
+The barista fires the callback when the job is completed by sending the callback message.</p>
+<p><img alt="AF Callback" src="img/AF_Callback.PNG"/></p>
+<p>To implement a callback in Triarc in a similar way, an interface must be created which the process handling the callback implements.
+The Callback Message in the data of the order item is replaced by an interface which defines the callback method.
+The callback message is sent by invoking the method defined by the interface.</p>
+<p><img alt="AF Callback" src="img/TF_Callback.PNG"/></p>
+<p>Both methods works well and have the merit of decoupling the class making the callback from the class receiving it.
+As an interface cannot cary any data, the beverage input is given by the barista in Triarc, while the cashier is setting it in Actor Framework when constructing the message.
+In this example I think it makes more sense to have the barista set the order content to be picked up, but this is at the cost of slightly tighter coupling.
+To achieve the same decoupling as in the Actor Framework example and make the barista unaware of the return message content, the cashier could implement a more abstract interface used by the barista and the cashier could notify the customer using and asynchronous action.</p>
+<h3 id="context-awareness">Context awareness</h3>
+<p>In Actor Framework an actor may spawn nested actors, which may in turn spawn more actors.
+Nested actors may be stopped by the calling actor when on shutdown and nested actors may send messages to their caller by accessing the Callers Enqueuer.</p>
+<p>In Triarc there is a class called Application which hosts processes or nested applications.
+Any process may access the application hosting it by using the Get Context method.</p>
+<h3 id="user-interfaces">User Interfaces</h3>
+<p>In Actor Framework it is common to implement the user interface in the Actor Core.vi.
+Triarc introduces the concept of a View which implements a user interface component.
+The View separates the user interface from the process and provides some of the common boiler plate code.</p>
+<h3 id="features">Features</h3>
+<p>Actor Framework is more minimal than Triarc in the features available in the framework.
+The framework is responsible for handling messaging between actors, the actor lifecycles, error handling and debugging.
+Triarc provides more functioanlity, such as the View and Application classes, and the Helper Loop and Asynchrounous Action interfaces.
+Triarc also has configuration persistance features built in and support for logging and predefined automated unit tests.</p>
+<p>Whether the additional functionality in Triarc is an advantage or not depends on how useful you find the features.
+Personally I have found that these are concepts needed for any project and should therefore be part of the framework.
+These provided concepts enforces a certain style and structure to the code.</p>
+<h3 id="ease-of-use">Ease of Use</h3>
+<p>This might be an oppinionated section, but one may argue that ease of use is an important aspect of any framework.</p>
+<p>Actor framework is heavily object oriented, and by heavily I mean that every actor and message is an object.
+To determine what a specific actor does, you need to look at the actor class, then all messages for the specific actor and then all messages for all of its parent actors.
+If there are dynamic dispatch VIs used in the messages, you need to go back and find which one is actually called, which depends on the specific class.
+This might be a lot to diggest, even for experienced developers, and in my opinion it is unnecessarily complicated.</p>
+<p>To send messages in Actor Framework you need to get access to the correct enqueuer and construct a message to be sent to the actor.
+This paradigm and the overall design of the interfaces in actor framework makes it look and feel very different from other well known designs, such as the queued message handler.</p>
+<p>Triarc on the other hand is modelled after well known concepts so that it looks natural and intuitive even to an inexperienced programmer.
+Using a Triarc process looks very much like using an instrument driver, with well defined common methods for controlling the lifecycle and high level API-methods.
+Developing a Triarc process feels like developing a queueud message handler, but you do not need to care about the plumbing outside of the case structure.
+A comparison of the API for the same customer is shown bellow.</p>
+<p><img alt="AF Callback" src="img/TF_AF_API.PNG"/></p>
+<p>The main difference is not that the Triarc icons are more colorful, but the important distinction is that in Actor Framework VIs from the different message classes and the logic is spread out.
+In Triarc the methods defined for a class are all owned by the class or its parents.</p>
+<p>If we take a look at the implementation of the abstract(-ish) worker class in actor framework, the user interface is implemented in the actor core and the functionality is handled in the parent actor core and defined in the messages defined for the actor.
+<img alt="AF Callback" src="img/AF_worker.PNG"/></p>
+<p>In Triarc the user interface and application logic is split up into separate VIs.
+The functionality is implemented in the Handle Messages VI and the user interface is in the View vi.</p>
+<p><img alt="AF Callback" src="img/TF_worker.PNG"/></p>
+<p>The amount of classes in a typical Actor Framework application tends to grow quickly as messages are added.
+As and example, the class hierarchy for the same application in Actor Framework on the left and Triarc on the right is shown below.</p>
+<p><img alt="AF Callback" src="img/Class_hierarchies.PNG"/></p>
+<h2 id="conclusions">Conclusions</h2>
+<p>Actor framework and Triarc both implements different versions of the actor model.
+The main difference is how messages are represented as objects in actor framework and the functionality is implemented in these messages.
+To get a feel for the two frameworks, the coffee shop example is a very nice starting point.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Design Discussion" class="md-footer__link md-footer__link--prev" href="../91_Design%20Discussion/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Design Discussion
+            </div>
+</div>
+</a>
+<a aria-label="Next: Triarc and DQMH" class="md-footer__link md-footer__link--next" href="../93_Triarc%20and%20DQMH/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Triarc and DQMH
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-footer-copyright">
+<div class="md-footer-copyright__highlight">
+            Copyright © 2021 - 2025 Astemes
+          </div>
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+            Material for MkDocs
+          </a>
+ ... <a class="link--pdf-download" download href="..\Astemes Triarc Framework.pdf" title="PDF">download PDF</a></div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+<script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Anton Sundqvist" name="author"/>
+<link href="http://astemes.com/80_Configuration/" rel="canonical"/>
+<link href="../Style/logo.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-7.3.4" name="generator"/>
+<title>Configuration - Astemes Triarc Framework</title>
+<link href="../assets/stylesheets/main.db9e7362.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+<link href="../Style/style.css" rel="stylesheet"/>
+</head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#configuration-management">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Astemes Triarc Framework" class="md-header__button md-logo" data-md-component="logo" href=".." title="Astemes Triarc Framework">
+<img alt="logo" src="../Style/logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Astemes Triarc Framework
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Configuration
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Astemes/astemes-triarc-framework/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Astemes Triarc Framework" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Astemes Triarc Framework">
+<img alt="logo" src="../Style/logo.png"/>
+</a>
+    Astemes Triarc Framework
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Astemes/astemes-triarc-framework/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../10_Introduction/">
+        Introduction
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../20_Framework/">
+        Framework
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../21_Base/Base/">
+        Base
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../22_Process/">
+        Process
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../23_Application/">
+        Application
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../24_View/">
+        View
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../26_Handling%20Messages/">
+        Handling Messages
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../27_Messaging/">
+        Messaging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../28_Broadcasting/">
+        Broadcasting
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../29_Requests/">
+        Requests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../30_Error%20Handling/">
+        Error Handling
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../35_Logging/">
+        Logging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../40_Helper%20Loops/">
+        Helper Loops
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../45_Async%20Handler/">
+        Async Handler
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../70_Debugging/">
+        Debugging
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Configuration
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Configuration
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triarc-configuration-interface">
+    Triarc Configuration Interface
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triarc-configuration-file-interface">
+    Triarc Configuration File Interface
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#practices-and-antipatterns">
+    Practices and antipatterns
+  </a>
+<nav aria-label="Practices and antipatterns" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#configuration-data-is-global">
+    Configuration Data is Global
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#race-conditions">
+    Race Conditions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#default-values">
+    Default Values
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lack-of-structure">
+    Lack of structure
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../90_Best%20Practices/Best%20Practices/">
+        Best Practices
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../91_Design%20Discussion/">
+        Design Discussion
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../92_Triarc%20and%20Actor%20Framework/">
+        Triarc and Actor Framework
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../93_Triarc%20and%20DQMH/">
+        Triarc and DQMH
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triarc-configuration-interface">
+    Triarc Configuration Interface
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triarc-configuration-file-interface">
+    Triarc Configuration File Interface
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#practices-and-antipatterns">
+    Practices and antipatterns
+  </a>
+<nav aria-label="Practices and antipatterns" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#configuration-data-is-global">
+    Configuration Data is Global
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#race-conditions">
+    Race Conditions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#default-values">
+    Default Values
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lack-of-structure">
+    Lack of structure
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/Astemes/astemes-triarc-framework/edit/master/docs/80_Configuration/index.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
+</a>
+<h1 id="configuration-management">Configuration Management</h1>
+<p>Configuration management is common in most software system and test systems are no exception, quite the contrary.
+It is useful to separate out parameters, which are to be editable after the system has been built and deployed, and manage these parameters outside the source.
+Because configuration management is so central to most test systems, the Triarc Framework provides a framework for managing configurations.</p>
+<p>Configurations may be stored in any conceivable format, and one common implementation is to use human readable text files.
+LabVIEW comes with built in functions for editing key-value pairs in windows style <code>.ini</code> text files.
+Another common practice is to use the windows registry or a database for storing configurations.</p>
+<h2 id="triarc-configuration-interface">Triarc Configuration Interface</h2>
+<p>The Configuration interface defines abstract methods for writing and reading configuration data.
+The implementation may be using any persistance technology.
+This is useful, as an in-memory implementation may be used for testing purposes of as a property object carrying configuration data.</p>
+<h2 id="triarc-configuration-file-interface">Triarc Configuration File Interface</h2>
+<p>A common way of persisting configurations is to use human readable flat text files.
+This works well in many cases and text files are easy to manage and version control.</p>
+<p>Triarc Framework provides the boiler plate for using configuration files to manage configurations.
+The API is shown in the test case below and the configurations are written to the text file.</p>
+<p><img alt="test_write_read_double" src="img/test_write_read_double.png"/></p>
+<p>The Base.lvclass implements the boiler plate code for carrying the reference to the file.</p>
+<p>The Configuration File API implementation is designed to be thread safe and is optimized for reading.
+This means that many processes may read from and write to the same configuration file without race conditions.
+This is done by only allowing one process to write to the configuration file at the same time. </p>
+<p>If many keys are to be read from the configuration file sequentially, the Open Config.vi and Close Config.vi methods shoule be used to reduce over head of opening and closing the reference for each read, as shown below.</p>
+<p><img alt="sequential_reads" src="img/sequential_reads.png"/></p>
+<h2 id="practices-and-antipatterns">Practices and antipatterns</h2>
+<p>There are a few pitfalls to be aware of when working with configurations and these are often overlooked.
+The following section assumes that configurations are stored in a file, but the same applies regardless of storage technology.</p>
+<h3 id="configuration-data-is-global">Configuration Data is Global</h3>
+<p>As configurations are stored in one (or potentially many) text file, any part of the applications which can find the file and parse it will be able to access the configuration information.
+This implies that there is an inherit risk for race conditions and care should be taken whenever a configuration is updated.</p>
+<p>In <code>TF</code> the configuration management functions ensures that each process can only access its own section of the configuration file.
+In this way the risk for race conditions are reduced.</p>
+<h3 id="race-conditions">Race Conditions</h3>
+<p>If a reference is opened for writing in many multiple places concurrently, there is a risk for race conditions to occur.
+This is as the last process which closes the file will overwrite the previous writes since it opened the reference to the file.
+As mentioned earlier, this is handled by <code>TF</code> as synchronization mechanisms is implemented to only allow a single process to open the file for writing.</p>
+<h3 id="default-values">Default Values</h3>
+<p>If a key is not found, the LabVIEW native configuration file functions returns a default value, which may be set by the developer.
+If a key is <em>e.g.</em> misspelled in the file, a user of the system will not get any kind of feedback on what the system is expecting from the configuration file and may cause a lot of pain.</p>
+<p>To mittigate this, <code>TF</code> will write the default value to the configuration file if the key was not found.
+By doing this, missing keys will be added to the file and if the file is missing all together a file with default configurations will be created automatically.</p>
+<h3 id="lack-of-structure">Lack of structure</h3>
+<p>Using LabVIEW native configuration file methods puts the responsibility on the developer to use reasonable sections when saving configuration data. 
+This often leads to a structure that degrades over time as more fields are added.</p>
+<p><code>TF</code> enforces a structure on the configuration file, as data is modelled in such a way that each process has its own section.
+If, as an example, two instances of a process are used to interract with two hardware devices, each instance will have its own section named after the process.
+In this way the two hardware devices can be configured independently and the only action needed by the developer is to ensure that they are named uniquely.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Debugging" class="md-footer__link md-footer__link--prev" href="../70_Debugging/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Debugging
+            </div>
+</div>
+</a>
+<a aria-label="Next: Best Practices" class="md-footer__link md-footer__link--next" href="../90_Best%20Practices/Best%20Practices/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Best Practices
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-footer-copyright">
+<div class="md-footer-copyright__highlight">
+            Copyright © 2021 - 2025 Astemes
+          </div>
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+            Material for MkDocs
+          </a>
+ ... <a class="link--pdf-download" download href="..\Astemes Triarc Framework.pdf" title="PDF">download PDF</a></div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+<script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
+</body>
+</html>

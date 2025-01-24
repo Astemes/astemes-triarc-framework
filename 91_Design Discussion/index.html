@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Anton Sundqvist" name="author"/>
+<link href="http://astemes.com/91_Design%20Discussion/" rel="canonical"/>
+<link href="../Style/logo.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-7.3.4" name="generator"/>
+<title>Design Discussion - Astemes Triarc Framework</title>
+<link href="../assets/stylesheets/main.db9e7362.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+<link href="../Style/style.css" rel="stylesheet"/>
+</head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#design-discussion">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Astemes Triarc Framework" class="md-header__button md-logo" data-md-component="logo" href=".." title="Astemes Triarc Framework">
+<img alt="logo" src="../Style/logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Astemes Triarc Framework
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Design Discussion
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Astemes/astemes-triarc-framework/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Astemes Triarc Framework" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Astemes Triarc Framework">
+<img alt="logo" src="../Style/logo.png"/>
+</a>
+    Astemes Triarc Framework
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Astemes/astemes-triarc-framework/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../10_Introduction/">
+        Introduction
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../20_Framework/">
+        Framework
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../21_Base/Base/">
+        Base
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../22_Process/">
+        Process
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../23_Application/">
+        Application
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../24_View/">
+        View
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../26_Handling%20Messages/">
+        Handling Messages
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../27_Messaging/">
+        Messaging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../28_Broadcasting/">
+        Broadcasting
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../29_Requests/">
+        Requests
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../30_Error%20Handling/">
+        Error Handling
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../35_Logging/">
+        Logging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../40_Helper%20Loops/">
+        Helper Loops
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../45_Async%20Handler/">
+        Async Handler
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../70_Debugging/">
+        Debugging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../80_Configuration/">
+        Configuration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../90_Best%20Practices/Best%20Practices/">
+        Best Practices
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Design Discussion
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Design Discussion
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#values-and-design-principles">
+    Values and Design Principles
+  </a>
+<nav aria-label="Values and Design Principles" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#let-the-data-flow">
+    Let the data flow
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#processing-in-the-process">
+    Processing in the Process
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#messaging">
+    Messaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-global-mutable-state">
+    No Global Mutable State
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strict-typing">
+    Strict Typing
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#open-to-extenssion">
+    Open to Extenssion
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#everything-in-its-own-context">
+    Everything in its Own Context
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#testing-over-debugging">
+    Testing over Debugging
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#separation-of-enqueuer-and-actor">
+    Separation of Enqueuer and Actor
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#orders-of-complexity">
+    Orders of Complexity
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#semantics">
+    Semantics
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#priority-queues">
+    Priority Queues
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../92_Triarc%20and%20Actor%20Framework/">
+        Triarc and Actor Framework
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../93_Triarc%20and%20DQMH/">
+        Triarc and DQMH
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#values-and-design-principles">
+    Values and Design Principles
+  </a>
+<nav aria-label="Values and Design Principles" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#let-the-data-flow">
+    Let the data flow
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#processing-in-the-process">
+    Processing in the Process
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#messaging">
+    Messaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-global-mutable-state">
+    No Global Mutable State
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#strict-typing">
+    Strict Typing
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#open-to-extenssion">
+    Open to Extenssion
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#everything-in-its-own-context">
+    Everything in its Own Context
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#testing-over-debugging">
+    Testing over Debugging
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#separation-of-enqueuer-and-actor">
+    Separation of Enqueuer and Actor
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#orders-of-complexity">
+    Orders of Complexity
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#semantics">
+    Semantics
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#priority-queues">
+    Priority Queues
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/Astemes/astemes-triarc-framework/edit/master/docs/91_Design Discussion/index.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
+</a>
+<h1 id="design-discussion">Design Discussion</h1>
+<p>When designing the Triarc Framework, one of the goals was approachability and ease of use while retaining the full power of the actor model.
+Software design is always about making trade offs, and in order to make the readability higher some trade offs have been made.
+This document discusses the most important of theses. </p>
+<h2 id="values-and-design-principles">Values and Design Principles</h2>
+<p>The core values and design principles employed by <code>TF</code> are discussed in this section.</p>
+<h3 id="let-the-data-flow">Let the data flow</h3>
+<p>The concept of data flow is one of the key strengths of LabVIEW and should be embraced.
+Passing data by value is to prefer as default, over passing data by reference.</p>
+<h3 id="processing-in-the-process">Processing in the Process</h3>
+<p>All major processing should take place within the process.
+This makes API calls fast and reliable, while protecting the consitency of the process state.</p>
+<h3 id="messaging">Messaging</h3>
+<p>Information is exchanged between processes using asynchronous messaging.
+All messages have equal priority, to reduce unnecessary complexity.
+The handling of each message should be atomic, <em>i.e</em> should not be spread out over multiple states.</p>
+<h3 id="no-global-mutable-state">No Global Mutable State</h3>
+<p>By avoiding any kind of global mutable state, applications become more robust and easier to understand and reason about.
+It is also a prerequisite for effective testing, as tests would interfere if they were to share global resources.
+This means that global variables, functional global variables (FGVs), named queueus, etc. are prohibited.</p>
+<h3 id="strict-typing">Strict Typing</h3>
+<p>By using strictly typed APIs, errors can be detected at compile time and the consequence of changes to a data type is clearer.
+API:s should therefore use strict typing whenever possible.</p>
+<h3 id="open-to-extenssion">Open to Extenssion</h3>
+<p>Classes are to be open for extenssion without modifying the base, while keeping the base behaviour unchanged.
+Triarc provides mechanisms for overriding behavior by either overriding dynamic dispatch VI:s or by handling messages defined by parent processes.</p>
+<h3 id="everything-in-its-own-context">Everything in its Own Context</h3>
+<p>The lifecycle of every process running in an application is managed by the owning context.
+What is initialized must be cleared.
+What is started must be stopped.</p>
+<h3 id="testing-over-debugging">Testing over Debugging</h3>
+<p>While the framework comes with a capable debugger, using it should however be relatively rare.
+Good test coverage is always to prefer and it is much more effective to debug a limited test case than a complete application.</p>
+<h2 id="separation-of-enqueuer-and-actor">Separation of Enqueuer and Actor</h2>
+<p>The main design difference between Actor Framework (AF) and Triarc Framework (TF) is how the enqueuer concept is implemented.
+In AF messages are sent by calling VI:s on the enqueuer object associated with the actor.
+This is done to protect the state data of the actor, by making it impossible to access it from the enqueuer object.</p>
+<p>In TF the enqueuer and process classes are deliberately not separated from each other.
+This puts the responsibility on the developer to not access the data outside the Handle Messages.vi. 
+Utilities are provided to determine whether a VI is called within the process or not, and in practice it is not difficult.</p>
+<h2 id="orders-of-complexity">Orders of Complexity</h2>
+<p>The reason why the enqueuer is not extracted as a separate class or interface in TF is because it comes with a cost.
+Doing it introduces a lot of complexity as in the AF case messages needs to be defined in separate classes, nesting calls to public methods on the receiving actor. </p>
+<p>Making an AF Actor called Actor A do something requires the caller to determine that the <code>something</code> message is compatible with Actor A. 
+If the message calles a dynamic dispatch method on a parent of Actor A, the Actor A may override this VI to change what something it does. 
+The call structure would look something like the diagram below.</p>
+<p><img alt="AF Call hierarcy" src="img/AF_call_hierarchy.png"/></p>
+<p>In TF the corresponding action is simply to call the <code>something</code> API VI on the Process.
+If the process cannot do <code>something</code> the run arrow will be broken.
+The call hierarcy is much simpler, as shown below.</p>
+<p><img alt="TF Call hierarcy" src="img/TF_call_hierarchy.png"/></p>
+<h2 id="semantics">Semantics</h2>
+<p>There is a slight but important semantic difference in how you interact with an AF Actor compared to a TF Process.</p>
+<p>When you want an AF Actor to do something, you enqueue a message to the actor using its enqueuer.
+You should know that the actor can handle the message you send it, or you will get a nasty run-time error.
+There is thus an implicit coupling between the actor and the message, even if there might not be any source code coupling from the actor to the message.</p>
+<p>When you want a TF Process to do something, you make an API call on the process object.
+Under the hood, the API call enqueues a message to the Process, but the coupling is made explicit.</p>
+<h2 id="priority-queues">Priority Queues</h2>
+<p>Some frameworks give the option of sending messages with different priority levels.
+This adds significant complexity to the application since it increases the number of possible paths through the application.
+There are situations where a different priority message is usefull, but they should be rare.</p>
+<p>Triarc provides the option of terminating a process by clearing it, so there is no need to send a high priority shutdown message.
+If it is not an emergency shutdown, it is in most cases better to shut down normally by stopping it and allowing each process to perform potential clean-up.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Best Practices" class="md-footer__link md-footer__link--prev" href="../90_Best%20Practices/Best%20Practices/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Best Practices
+            </div>
+</div>
+</a>
+<a aria-label="Next: Triarc and Actor Framework" class="md-footer__link md-footer__link--next" href="../92_Triarc%20and%20Actor%20Framework/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Triarc and Actor Framework
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-footer-copyright">
+<div class="md-footer-copyright__highlight">
+            Copyright © 2021 - 2025 Astemes
+          </div>
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+            Material for MkDocs
+          </a>
+ ... <a class="link--pdf-download" download href="..\Astemes Triarc Framework.pdf" title="PDF">download PDF</a></div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+<script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
+</body>
+</html>
